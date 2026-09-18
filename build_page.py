@@ -1,4 +1,8 @@
-<!doctype html>
+# Script to build the upgraded index.html for Ngesa Diaries
+# Featuring Manga / Graphic Novel Noir aesthetic (from dribbble_ref.png)
+# and Kendo UI AIPrompt component (from telerik.com/kendo-jquery-ui/documentation/controls/aiprompt/overview)
+
+page_content = """<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -2535,3 +2539,9 @@ Generated via Ngesa Starpod AI Engine.`;
   </script>
 </body>
 </html>
+"""
+
+with open('/home/yourusername/Projects/darknet-kenya/index.html', 'w', encoding='utf-8') as f:
+    f.write(page_content)
+
+print("Upgraded index.html successfully generated!")
