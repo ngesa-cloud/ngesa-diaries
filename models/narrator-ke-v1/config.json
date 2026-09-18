@@ -1,0 +1,18 @@
+{
+  "model_type": "hypa_orpheus",
+  "architectures": ["HypaOrpheusForConditionalGeneration"],
+  "sample_rate": 24000,
+  "speaker_embedding_dim": 256,
+  "hidden_size": 3072,
+  "num_hidden_layers": 32,
+  "num_attention_heads": 32,
+  "intermediate_size": 8192,
+  "accent": "en-KE",
+  "target_wpm": 135,
+  "pitch_semitone_offset": -2.1,
+  "tension_factor": 0.35,
+  "pause_bias_ms": 380,
+  "phoneme_dictionary": "phonemes_swahili_english_ke.json",
+  "checkpoint": "checkpoint-epoch8.pt",
+  "license": "Apache-2.0"
+}

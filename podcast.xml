@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ngesa Diaries | Hidden Kenyan Horror Stories &amp; True Mysteries</title>
+    <link>https://ngesa-cloud.github.io/ngesa-diaries</link>
+    <language>en-ke</language>
+    <copyright>&#xA9; 2026 Ngesa Diaries &amp; Dominic Nyongesa (@ngesa-cloud)</copyright>
+    <itunes:author>Dominic Nyongesa</itunes:author>
+    <itunes:summary>An open-source investigative audio documentary series exploring Kenya's most terrifying declassified folklore, urban legends, nocturnal phenomena, and supernatural mysteries. From the hereditary night runners of Western Kenya to the haunted waters of Mama Ngina and the starvation woods of Chakama.</itunes:summary>
+    <description>Ngesa Diaries is a narrative-driven audio documentary uncovering the dark folklore, haunted geography, urban legends, and chilling mysteries of Kenya. Hosted and produced by cybersecurity analyst and researcher Dominic Nyongesa.</description>
+    <itunes:owner>
+      <itunes:name>Dominic Nyongesa</itunes:name>
+      <itunes:email>dominic.nyongesa@student.moringaschool.com</itunes:email>
+    </itunes:owner>
+    <itunes:explicit>true</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Society &amp; Culture">
+      <itunes:category text="Documentary"/>
+    </itunes:category>
+    <itunes:category text="True Crime"/>
+    <itunes:category text="History"/>
+    <itunes:image href="avatar.jpg"/>
+
+    <!-- Episode 1 -->
+    <item>
+      <title>EP 01: The Midnight Knock (The Night Runners of Western Kenya)</title>
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>Mud slaps on iron roofs, supernatural speed, and the hereditary night runners of Lake Victoria.</itunes:subtitle>
+      <itunes:summary>In the villages along Lake Victoria and Gucha, midnight brings a chilling silence broken by mud slapping corrugated iron roofs. We investigate the Abanyasi—individuals bound by hereditary compulsion to sprint bare through thorny thickets and terrify neighbors without ever breaking inside.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep01-night-runners.mp3" length="36700000" type="audio/mpeg"/>
+      <guid>ngesa-ep-01-night-runners</guid>
+      <pubDate>Mon, 01 Sep 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>38:15</itunes:duration>
+      <itunes:keywords>night runners, abanyasi, homa bay, kisii, folklore, kenya, supernatural</itunes:keywords>
+    </item>
+
+    <!-- Episode 2 -->
+    <item>
+      <title>EP 02: The Ghost Bus of Ngong Road (KBS 666 &amp; The Red Matatu)</title>
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>The midnight phantom transit that stops for stranded commuters near the forest cemetery.</itunes:subtitle>
+      <itunes:summary>For decades, Nairobi commuters have whispered tales of the ghost bus appearing past 1:00 AM in the cold mist between Adams Arcade and the Karen forest junction: unblinking passengers, zero-reading speedometers, and routes dissolving into eucalyptus trees.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep02-ghost-bus-ngong.mp3" length="40500000" type="audio/mpeg"/>
+      <guid>ngesa-ep-02-ghost-bus</guid>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>42:10</itunes:duration>
+      <itunes:keywords>ghost bus, nairobi, ngong road, urban legend, kbs, phantom vehicle</itunes:keywords>
+    </item>
+
+    <!-- Episode 3 -->
+    <item>
+      <title>EP 03: Kirima kia Ngoma: The Whispers of Menengai Crater</title>
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>The volcanic amphitheater where warrior ghosts, phantom tractors, and unexplained disappearances collide.</itunes:subtitle>
+      <itunes:summary>Towering above Nakuru town, Menengai Caldera ('The Hill of Devils') holds centuries of dark history—from the 1854 Maasai warrior clashes to phantom tractors plowing lava beds at 3 AM and hikers vanishing into sulfurous mist.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep03-menengai-crater.mp3" length="44600000" type="audio/mpeg"/>
+      <guid>ngesa-ep-03-menengai</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>46:30</itunes:duration>
+      <itunes:keywords>menengai, nakuru, kirima kia ngoma, haunted crater, maasai history, disappearances</itunes:keywords>
+    </item>
+
+    <!-- Episode 4 -->
+    <item>
+      <title>EP 04: The Goat-Footed Stranger of Mama Ngina (The Mombasa Jinn)</title>
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>Ancestral spirit pacts, the haunted ruins of Gedi, and the woman who lures late-night walkers by the ocean.</itunes:subtitle>
+      <itunes:summary>Along the Swahili coast, tales of majini are woven into everyday life. An investigation into the Mama Ngina waterfront apparitions, Gedi ruins baobabs, and the goat-footed beauty who flags down midnight motorists.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep04-mombasa-jinn.mp3" length="42200000" type="audio/mpeg"/>
+      <guid>ngesa-ep-04-mombasa-jinn</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>44:00</itunes:duration>
+      <itunes:keywords>majini, mombasa, swahili coast, mama ngina, gedi ruins, coastal lore</itunes:keywords>
+    </item>
+
+    <!-- Episode 5 -->
+    <item>
+      <title>EP 05: The Dormitory Above the Crypt (Kenyan Boarding School Hauntings)</title>
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>Cold hands on the top bunk, phantom footsteps in the corridor, and the bell that rings with no power.</itunes:subtitle>
+      <itunes:summary>An immersive probe into Kenya's collective boarding school terror: colonial-era dormitories built on settler tombs, marching combat boots in locked hallways, and the unpowered brass bell tolling at 3:15 AM.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep05-boarding-school-hauntings.mp3" length="38200000" type="audio/mpeg"/>
+      <guid>ngesa-ep-05-boarding-school</guid>
+      <pubDate>Fri, 15 May 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>39:50</itunes:duration>
+      <itunes:keywords>boarding school, dormitory, kenyan youth, high school horror, limuru, phantom bell</itunes:keywords>
+    </item>
+
+    <!-- Episode 6 -->
+    <item>
+      <title>EP 06: The Vanishing at Kikopey (The Lady in White of Salgaa)</title>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>The fog of the Great Rift Valley, stalled diesel engines, and the passenger who dissolves in the front seat.</itunes:subtitle>
+      <itunes:summary>Along the treacherous Northern Corridor highway descent from Kikopey to Salgaa, long-distance haulage truckers recount harrowing encounters with the barefoot Lady in White who vanishes mid-transit.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep06-lady-in-white-salgaa.mp3" length="39600000" type="audio/mpeg"/>
+      <guid>ngesa-ep-06-salgaa</guid>
+      <pubDate>Wed, 15 Apr 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>41:20</itunes:duration>
+      <itunes:keywords>salgaa, kikopey, lady in white, highway ghost, rift valley, truckers</itunes:keywords>
+    </item>
+
+    <!-- Episode 7 -->
+    <item>
+      <title>EP 07: The Starvation Woods of Chakama (The Shakahola Cult Files)</title>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>An 800-acre forest of silence: The harrowing investigative forensics of Kenya's deadliest cult.</itunes:subtitle>
+      <itunes:summary>A somber, declassified investigative breakdown into how forensic anthropologists and human rights trackers uncovered over 400 shallow graves across the thorny thickets of Chakama Ranch in Kilifi County.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep07-shakahola-cult-files.mp3" length="50100000" type="audio/mpeg"/>
+      <guid>ngesa-ep-07-shakahola</guid>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>52:15</itunes:duration>
+      <itunes:keywords>shakahola, kilifi, chakama, true crime, cult forensics, investigative journalism</itunes:keywords>
+    </item>
+
+    <!-- Episode 8 -->
+    <item>
+      <title>EP 08: The Brain-Eater of Kakamega (The Legend of the Chemosit)</title>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>Dominic Nyongesa</itunes:author>
+      <itunes:subtitle>The ferocious mythological man-beast of the Nandi and Kakamega rainforests.</itunes:subtitle>
+      <itunes:summary>Deep inside Kakamega's tropical rainforest canopy and the Nandi Hills, we explore the terrifying century-old enigma of the Chemosit (Nandi Bear)—a ferocious arboreal predator that haunts indigenous folklore.</itunes:summary>
+      <enclosure url="https://ngesa-cloud.github.io/ngesa-diaries/audio/ep08-chemosit-kakamega.mp3" length="36100000" type="audio/mpeg"/>
+      <guid>ngesa-ep-08-chemosit</guid>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0300</pubDate>
+      <itunes:duration>37:40</itunes:duration>
+      <itunes:keywords>chemosit, nandi bear, kakamega forest, cryptid, kenyan folklore, anthropology</itunes:keywords>
+    </item>
+  </channel>
+</rss>

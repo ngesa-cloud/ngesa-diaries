@@ -1,0 +1,22 @@
+{
+  "actor_name": "Synthetic Kenyan Narrator (ElevenLabs Voice Design)",
+  "voice_source": "synthetic",
+  "is_real_person": false,
+  "signature_date": "2026-09-18",
+  "expiry": null,
+  "revoked": false,
+  "revocation_date": null,
+  "permitted_uses": [
+    "podcast narration",
+    "ai voice cloning",
+    "commercial distribution"
+  ],
+  "licensing_terms": {
+    "provider": "ElevenLabs Voice Design API",
+    "prompt": "A calm, measured Kenyan male narrator in his late 30s. Investigative journalist tone. Low warmth, slight tension. Neutral East African accent. Pace 135 words per minute. Pauses before key facts. Never sensational. Standard English with correct Swahili pronunciation for place names.",
+    "commercial_distribution": "Full commercial ownership per ElevenLabs Pro terms"
+  },
+  "legal_jurisdiction": "Global / Commercial Open Source",
+  "contract_reference": "ELEVENLABS-VD-KE-2026-09",
+  "producer": "Dominic Nyongesa (@ngesa-cloud)"
+}

@@ -1,0 +1,45 @@
+{
+  "prompt": "A calm, measured Kenyan male narrator in his late 30s. Investigative journalist tone. Low warmth, slight tension. Neutral East African accent. Pace 135 words per minute. Pauses before key facts. Never sensational. Standard English with correct Swahili pronunciation for place names.",
+  "generated_candidates": [
+    {
+      "id": "ke_candidate_01_noir_baritone",
+      "pitch": 35,
+      "speed": 134,
+      "name": "Candidate 1: Deep Noir Baritone (Selected #1)",
+      "score": 9.6
+    },
+    {
+      "id": "ke_candidate_02_investigative_low",
+      "pitch": 38,
+      "speed": 136,
+      "name": "Candidate 2: Low-Warmth Investigative (Selected #2)",
+      "score": 9.2
+    },
+    {
+      "id": "ke_candidate_03_documentary_steady",
+      "pitch": 40,
+      "speed": 138,
+      "name": "Candidate 3: Steady Documentary Anchor",
+      "score": 8.7
+    },
+    {
+      "id": "ke_candidate_04_narrator_tension",
+      "pitch": 36,
+      "speed": 132,
+      "name": "Candidate 4: High-Tension Whispered Noir",
+      "score": 8.5
+    },
+    {
+      "id": "ke_candidate_05_neutral_eastafrica",
+      "pitch": 42,
+      "speed": 142,
+      "name": "Candidate 5: Crisp Urban Nairobi English",
+      "score": 8.3
+    }
+  ],
+  "top_selected": [
+    "ke_candidate_01_noir_baritone",
+    "ke_candidate_02_investigative_low"
+  ],
+  "locked_voice_id": "ke_candidate_01_noir_baritone"
+}

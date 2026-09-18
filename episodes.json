@@ -1,0 +1,276 @@
+[
+  {
+    "id": "ep01",
+    "episode_number": 1,
+    "title": "The Midnight Knock (The Night Runners of Western Kenya)",
+    "category": "FOLKLORE & OCCULT PHENOMENA",
+    "tagline": "Mud slaps on iron roofs, supernatural speed, and the hereditary night runners of Lake Victoria.",
+    "duration": "38:15",
+    "release_date": "Sep 2026",
+    "location": "Homa Bay & Kisii Counties",
+    "tags": [
+      "NIGHT RUNNERS",
+      "ABANYASI",
+      "WESTERN KENYA",
+      "TABOO"
+    ],
+    "synopsis": "In the villages along the shores of Lake Victoria and the rolling hills of Gucha, midnight brings an unsettling silence\u2014broken only by the sudden, violent slap of wet mud against corrugated iron roofs. This is the realm of the Night Runners (Abanyasi in Luhya, Omoirori in Gusii): individuals who claim an irresistible hereditary compulsion to strip bare in the dead of night, sprint through thorny thickets at impossible speeds, flick glowing embers into homesteads, and terrify their neighbors without ever breaking inside.",
+    "field_dossier": {
+      "phenomenon": "Hereditary Nocturnal Somnambulism / Parapsychological Guild",
+      "reported_behavior": "Throwing gravel on roofs, riding wild leopards and hyenas, racing through dense sisal without thorns piercing skin",
+      "witness_account": "Mzee Ochieng: 'You hear footsteps circling your hut like a cheetah. You shout, but if you step outside and shine a torch in their eyes, your arm goes paralyzed.'",
+      "scientific_perspective": "A combination of hereditary psychological manic-dissociative states, generational superstition, and village psychological warfare"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "It's 3:15 AM in a sleeping village near Kendu Bay. The crickets suddenly stop chirping. Then comes the sound: a rhythmic, metallic rattling against the iron sheets of your roof, followed by dirt raining down on your door."
+      },
+      {
+        "time": "00:45",
+        "speaker": "Dominic",
+        "text": "Every Kenyan who grew up in the village was told the rule: Do not open that door. Do not shine your torch into the dark."
+      },
+      {
+        "time": "01:20",
+        "speaker": "Mzee Dennis (Village Elder)",
+        "text": "Night running is in the blood. The runner doesn't want to steal your cow. They don't want to hurt you physically. Their curse is the thrill of fear. They can sprint through a fence of thorns and come out without a single scratch."
+      },
+      {
+        "time": "02:50",
+        "speaker": "Dominic",
+        "text": "Welcome to Ngesa Diaries. I'm Dominic Nyongesa. Tonight: Case File 01 \u2014 The Secret Guild of the Night Runners."
+      }
+    ],
+    "audioUrl": "/audio/ep001.mp3",
+    "duration_manifest": "01:26",
+    "lufs": -16.5,
+    "voice_source": "actor"
+  },
+  {
+    "id": "ep02",
+    "episode_number": 2,
+    "title": "The Ghost Bus of Ngong Road (KBS 666 & The Red Matatu)",
+    "category": "URBAN LEGENDS",
+    "tagline": "The midnight phantom transit that stops for stranded commuters near the forest cemetery.",
+    "duration": "42:10",
+    "release_date": "Aug 2026",
+    "location": "Ngong Road & Forest Border, Nairobi",
+    "tags": [
+      "URBAN LEGEND",
+      "GHOST BUS",
+      "NAIROBI",
+      "NGONG ROAD"
+    ],
+    "synopsis": "For decades, Nairobi commuters have whispered tales of the ghost bus. It appears only past 1:00 AM on rainy nights between Adams Arcade and the Karen forest junction: a vintage red Kenya Bus Service or retro matatu with a glowing yellow destination board reading 'TERMINAL'. Stranded commuters running for cover step aboard, only to realize none of the passengers ever blink, the driver never turns his head, and the vehicle never stops until it enters the forest.",
+    "field_dossier": {
+      "phenomenon": "Phantom Vehicle Apparition & Collective Urban Anxiety",
+      "reported_behavior": "Faint engine purr with no tire spray on wet tarmac; interior illuminated by dim amber incandescent bulb; silence inside the cabin",
+      "witness_account": "Taxi Operator Kamau: 'In 2014, I followed an old KBS bus turning into the forest sanctuary at 2:00 AM. There was no road there\u2014just dense eucalyptus. When my headlights hit it, the vehicle dissolved like smoke.'",
+      "scientific_perspective": "Hypnagogic hallucination induced by late-night fatigue and trauma associated with historical fatal crashes along the dark Ngong Road corridor"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "Imagine standing by the roadside on Ngong Road. The rain is pouring down. Your phone battery just died. Suddenly, headlights pierce the mist. An old bus slows to a stop, its pneumatic doors hissing open."
+      },
+      {
+        "time": "01:05",
+        "speaker": "Dominic",
+        "text": "You step inside out of the rain. The air is freezing. The passengers are sitting upright, staring straight ahead. Nobody speaks. And then you notice the speedometer: it reads zero, even though the trees outside are blurring past."
+      }
+    ],
+    "audioUrl": "/audio/ep002.mp3",
+    "duration_manifest": "01:14",
+    "lufs": -16.5,
+    "voice_source": "actor"
+  },
+  {
+    "id": "ep03",
+    "episode_number": 3,
+    "title": "Kirima kia Ngoma: The Whispers of Menengai Crater",
+    "category": "HAUNTED GEOGRAPHY",
+    "tagline": "The volcanic amphitheater where warrior ghosts, phantom tractors, and unexplained disappearances collide.",
+    "duration": "46:30",
+    "release_date": "Jul 2026",
+    "location": "Menengai Caldera, Nakuru",
+    "tags": [
+      "MENENGAI",
+      "PLACE OF DEVILS",
+      "DISAPPEARANCES",
+      "MAASAI LORE"
+    ],
+    "synopsis": "Towering above Nakuru town, the Menengai Crater is one of the largest volcanic calderas on earth. Its Kikuyu name, Kirima kia Ngoma, literally translates to 'The Hill of Devils'. In 1854, a bloody inter-clan clash between the Ilpurko and Iloikop Maasai ended with hundreds of defeated warriors being hurled into the abyss. Ever since, locals report phantom tractors farming the volcanic floor at 3:00 AM, mysterious disorientations, and hikers who walked into the caldera mist and were never seen again.",
+    "field_dossier": {
+      "phenomenon": "Geomagnetic Anomalies & Historic Trauma Apparitions",
+      "reported_behavior": "Disorientation of compasses, sulfurous mist forming humanoid shapes, phantom sounds of roaring farm machinery at night",
+      "witness_account": "Forest Ranger Kiprop: 'We found his backpack and boots neatly stacked on a basalt rock by the rim. No tracks leading down. The crater swallowed him in broad daylight.'",
+      "scientific_perspective": "Geothermal hydrogen sulfide vents causing sudden hypoxic hallucinations and disorientation in the dense caldera basin"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "If you stand at the edge of Menengai Crater at dusk, the wind whistles through the jagged lava beds. But listen closer. Underneath the wind, locals swear you can hear the chanting of five hundred warriors who never came back up."
+      }
+    ],
+    "audioUrl": "/audio/ep003.mp3"
+  },
+  {
+    "id": "ep04",
+    "episode_number": 4,
+    "title": "The Goat-Footed Stranger of Mama Ngina (The Mombasa Jinn)",
+    "category": "COASTAL PARANORMAL",
+    "tagline": "Ancestral spirit pacts, the haunted ruins of Gedi, and the woman who lures late-night walkers by the ocean.",
+    "duration": "44:00",
+    "release_date": "Jun 2026",
+    "location": "Old Town Mombasa & Mama Ngina Waterfront",
+    "tags": [
+      "MAJINI",
+      "MOMBASA",
+      "COASTAL HORROR",
+      "JINN PACTS"
+    ],
+    "synopsis": "Along the Swahili coast, the boundary between the living and the spirit realm is notoriously thin. From the ancient, abandoned stone city of Gedi to the narrow alleys of Mombasa Old Town, tales of majini (spirits) are woven into everyday life. Most feared is the legend of the goat-footed beauty who strolls the Mama Ngina cliffside past midnight\u2014striking up conversations with solitary men, her long flowing buibui veiling the cloven hooves beneath her ankles.",
+    "field_dossier": {
+      "phenomenon": "Coastal Jinn Folklore & Merchant Wealth Pacts",
+      "reported_behavior": "Shadow apparitions shifting into black cats (*paka wa dukani*), sudden overwhelming scent of rosewater followed by sulfur, physical paralyses",
+      "witness_account": "Boda rider Ali: 'A customer flagged me down near Fort Jesus. She had an unearthly perfume. When she lifted her dress to get onto the bike, my headlights caught her feet: two hairy goat hooves clicking against the asphalt. I dropped the motorcycle and ran.'",
+      "scientific_perspective": "Centuries-old folklore blending Afro-Arabian pre-Islamic jinn mythology with maritime trader urban anxieties"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "In Old Town Mombasa, ancient coral rag walls hold centuries of maritime secrets. If you ask any elder near the fish market about spirits, they won't laugh. They'll tell you to keep your head down when you walk past the baobabs after midnight."
+      }
+    ],
+    "audioUrl": "/audio/ep004.mp3"
+  },
+  {
+    "id": "ep05",
+    "episode_number": 5,
+    "title": "The Dormitory Above the Crypt (Boarding School Hauntings)",
+    "category": "KENYAN NOSTALGIA HORROR",
+    "tagline": "Cold hands on the top bunk, phantom footsteps in the corridor, and the bell that rings with no power.",
+    "duration": "39:50",
+    "release_date": "May 2026",
+    "location": "Limuru, Kikuyu & Meru Boarding Schools",
+    "tags": [
+      "BOARDING SCHOOL",
+      "DORMITORY",
+      "PHANTOM BELL",
+      "KENYAN YOUTH"
+    ],
+    "synopsis": "Almost every Kenyan who survived four years in a provincial or national boarding school remembers the 3:00 AM terror. Colonial-era stone dormitories built atop old colonial settlers' quarters or sacred forest groves; the rhythmic tapping above the wooden ceiling boards; the phantom matron dressed in white pacing the tiled washrooms; and the eerie brass school bell that clangs during thunderstorms while all students are locked inside.",
+    "field_dossier": {
+      "phenomenon": "Institutional Hysteria & Colonial Heritage Apparitions",
+      "reported_behavior": "Collective sleep paralysis on top bunks, phantom typewriter sounds in locked staffrooms, unpowered bells ringing",
+      "witness_account": "Alumnus Mercy: 'We were locked in House 4. At 3:15 AM, heavy combat boots started marching down the corridor. Every prefect stayed under their blanket. In the morning, wet boot prints led straight into a locked wall.'",
+      "scientific_perspective": "High teenage academic stress, sleep deprivation during exam cycles, and psychological contagion in isolated communal living"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "There is a unique terror that only Kenyan boarding school kids understand. The silence of the dorm at 3:00 AM. The iron bunk creaks. And suddenly, you feel the mattress sink under the weight of someone sitting at the foot of your bed."
+      }
+    ],
+    "audioUrl": "/audio/ep005.mp3"
+  },
+  {
+    "id": "ep06",
+    "episode_number": 6,
+    "title": "The Vanishing at Kikopey (The Lady in White of Salgaa)",
+    "category": "HIGHWAY HORROR",
+    "tagline": "The fog of the Great Rift Valley, stalled diesel engines, and the passenger who dissolves in the front seat.",
+    "duration": "41:20",
+    "release_date": "Apr 2026",
+    "location": "Nakuru-Eldoret Highway & Kikopey Flats",
+    "tags": [
+      "SALGAA",
+      "HIGHWAY PHANTOM",
+      "LADY IN WHITE",
+      "TRUCKERS"
+    ],
+    "synopsis": "The stretch of highway descending through Kikopey and Salgaa has claimed thousands of lives in catastrophic road crashes. But among long-distance transit drivers transporting cargo from Mombasa to Uganda, the danger isn't just brake failure. Decades of truckers report seeing a young woman standing barefoot in the chilly midnight fog. Those who stop to give her a lift report she never speaks, and within five kilometers, their rearview mirror shows an empty passenger seat soaked in cold moisture.",
+    "field_dossier": {
+      "phenomenon": "Highway Specter & Post-Traumatic Collective Memory",
+      "reported_behavior": "Apparition vanishing while vehicle is traveling at 80 km/h; sudden inexplicable loss of engine manifold pressure at exact geographical markers",
+      "witness_account": "Transit Driver Hassan: 'I felt the front door slam. I asked her where she was going. No answer. When I glanced left at the Salgaa bend, she was gone, but her seatbelt was still locked across the empty chair.'",
+      "scientific_perspective": "Severe driver highway hypnosis, circadian rhythm crashes, and psychological manifestations of survivor guilt along high-fatality roads"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "Every truck driver who drives the Northern Corridor knows the black spots: Salgaa, Sachangwan, Kikopey. But when the midnight fog rolls off the escarpment, the greatest danger isn't the road. It's what waits on the shoulder."
+      }
+    ],
+    "audioUrl": "/audio/ep006.mp3"
+  },
+  {
+    "id": "ep07",
+    "episode_number": 7,
+    "title": "The Starvation Woods of Chakama (The Shakahola Cult Files)",
+    "category": "TRUE CRIME INVESTIGATION",
+    "tagline": "An 800-acre forest of silence: The harrowing investigative forensics of Kenya's deadliest cult.",
+    "duration": "52:15",
+    "release_date": "Mar 2026",
+    "location": "Shakahola Forest, Chakama Ranch, Kilifi",
+    "tags": [
+      "SHAKAHOLA",
+      "CULT FORENSICS",
+      "TRUE CRIME",
+      "KILIFI"
+    ],
+    "synopsis": "In early 2023, the world learned of the horrors hidden inside the dense, thorny scrubland of Chakama Ranch in Shakahola. Under the twisted doctrine of self-proclaimed televangelist Paul Mackenzie, hundreds of families starved themselves in remote makeshift camps in anticipation of the end of the world. This declassified investigative episode tracks how forensic pathologists, human rights defenders, and local trackers uncovered over 400 shallow mass graves hidden beneath the thorny thickets.",
+    "field_dossier": {
+      "phenomenon": "Coercive Mind Control & Extreme Eschatological Cult Mass Suicide",
+      "reported_behavior": "Armed enforcers preventing mothers and children from drinking water; structured camps named 'Judea' and 'Bethlehem' hidden miles off the tarmac",
+      "witness_account": "Human Rights Investigator Hussein: 'The silence of that forest was heavy. Under every commiphora tree, the ground had been freshly turned. It wasn't folklore; it was human evil disguised as scripture.'",
+      "forensic_evidence": "Autopsy reports revealing severe starvation, dehydration, and blunt-force trauma among defectors attempting escape"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "Some monsters do not hide in folklore. Some monsters walk among us in three-piece suits. Deep in the thorny acacia plains of Kilifi County, an 800-acre ranch became a graveyard for over four hundred souls."
+      }
+    ],
+    "audioUrl": "/audio/ep007.mp3"
+  },
+  {
+    "id": "ep08",
+    "episode_number": 8,
+    "title": "The Brain-Eater of Kakamega (The Legend of the Chemosit)",
+    "category": "CRYPTID INVESTIGATION",
+    "tagline": "The ferocious mythological man-beast of the Nandi and Kakamega rainforests.",
+    "duration": "37:40",
+    "release_date": "Feb 2026",
+    "location": "Kakamega & Nandi Rainforest Canopy",
+    "tags": [
+      "CHEMOSIT",
+      "NANDI BEAR",
+      "CRYPTID",
+      "KAKAMEGA FOREST"
+    ],
+    "synopsis": "Deep inside the Kakamega Forest\u2014Kenya's last remaining tropical rainforest\u2014and across the Nandi Hills, generations of indigenous hunters have told tales of the Chemosit (often called the Nandi Bear by British colonial naturalists). Described as a fearsome half-man, half-hyena beast that climbs silently through the canopy and kills its prey by scalping the skull, the legend has baffled anthropologists and cryptozoologists for over a century.",
+    "field_dossier": {
+      "phenomenon": "Cryptid Lore & Prehistoric Megafauna Survival Legends",
+      "reported_behavior": "Eerie high-pitched siren calls at midnight, tree canopy stalking, predation targeting honey-gatherers",
+      "witness_account": "Forest elder Wafula: 'It walks on two legs when it stalks, but runs on four when it charges. When you hear the whistle from the high mahogany branches, you don't look up\u2014you drop your axe and run.'",
+      "scientific_perspective": "Folkloric memory of prehistoric giant baboons (*Theropithecus oswaldi*) or aberrant giant hyenas surviving in isolated montane rainforest pockets"
+    },
+    "transcript": [
+      {
+        "time": "00:00",
+        "speaker": "Dominic",
+        "text": "In the dense rainforest canopy of Kakamega, sunlight rarely hits the forest floor. But when the night falls, the forest elders speak in hushed whispers of the Chemosit: the beast that never leaves its prey intact."
+      }
+    ],
+    "audioUrl": "/audio/ep008.mp3"
+  }
+]

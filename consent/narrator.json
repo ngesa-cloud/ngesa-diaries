@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Voice Actor AI & Narration Consent Declaration",
+  "actor_name": "Narrator Template",
+  "voice_source": "actor",
+  "is_real_person": true,
+  "signature_date": "2026-03-15",
+  "expiry": null,
+  "revoked": false,
+  "revocation_date": null,
+  "permitted_uses": [
+    "podcast narration",
+    "ai voice cloning",
+    "commercial distribution"
+  ],
+  "licensing_terms": {
+    "exclusivity": "non-exclusive",
+    "territory": "worldwide",
+    "medium": "digital audio podcasts, rss feeds, streaming platforms, youtube",
+    "cloning_terms": "Synthetic replica restricted solely to Ngesa Diaries podcast episodes and promotional materials curated by Dominic Nyongesa."
+  },
+  "legal_jurisdiction": "Republic of Kenya (Data Protection Act 2019, Section 32 & Kenya Copyright Board)",
+  "contract_reference": "ND-VOX-2026-MASTER",
+  "producer": "Dominic Nyongesa (@ngesa-cloud)"
+}

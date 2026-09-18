@@ -1,0 +1,28 @@
+{
+  "ep001": {
+    "episode": "ep001",
+    "title": "The Midnight Knock (The Night Runners of Western Kenya)",
+    "voice_id": "kenyan-noir-anchor-01",
+    "voice_source": "actor",
+    "talent_name": "David Vincent Onyango",
+    "duration": "01:26",
+    "duration_seconds": 86.365896,
+    "lufs": -16.5,
+    "target_lufs": -16,
+    "generated_at": "2026-09-18T16:19:46.058Z",
+    "status": "VERIFIED_COMPLIANT"
+  },
+  "ep002": {
+    "episode": "ep002",
+    "title": "The Ghost Bus of Ngong Road (KBS 666 & The Red Matatu)",
+    "voice_id": "kenyan-noir-anchor-01",
+    "voice_source": "actor",
+    "talent_name": "David Vincent Onyango",
+    "duration": "01:14",
+    "duration_seconds": 74.782229,
+    "lufs": -16.5,
+    "target_lufs": -16,
+    "generated_at": "2026-09-18T16:20:40.745Z",
+    "status": "VERIFIED_COMPLIANT"
+  }
+}

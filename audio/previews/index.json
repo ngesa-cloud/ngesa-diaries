@@ -1,0 +1,17 @@
+[
+  {
+    "id": "david-vincent-onyango",
+    "file": "audio/previews/david-vincent-onyango.mp3",
+    "duration": "25.6"
+  },
+  {
+    "id": "kelvin-thagana-njungu",
+    "file": "audio/previews/kelvin-thagana-njungu.mp3",
+    "duration": "22.0"
+  },
+  {
+    "id": "synthetic-elevenlabs-prompt",
+    "file": "audio/previews/synthetic-elevenlabs-prompt.mp3",
+    "duration": "20.1"
+  }
+]

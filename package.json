@@ -1,0 +1,29 @@
+{
+  "name": "ngesa-diaries",
+  "version": "1.0.0",
+  "description": "Ngesa Diaries — Hidden Kenyan Horror Stories & True Mysteries Podcast Platform",
+  "type": "module",
+  "author": "Dominic Nyongesa <dominic.nyongesa@student.moringaschool.com> (https://github.com/ngesa-cloud)",
+  "license": "MIT",
+  "scripts": {
+    "voice:preview": "node scripts/voice-preview.js",
+    "voice:generate": "node scripts/generate-voice.js",
+    "voice:validate": "node scripts/validate-voice.js",
+    "serve": "python3 podcast.py serve --port 8000",
+    "list": "python3 podcast.py list",
+    "rss": "python3 podcast.py rss"
+  },
+  "keywords": [
+    "kenya",
+    "podcast",
+    "tts",
+    "audio-narration",
+    "darknet-diaries",
+    "folklore",
+    "elevenlabs",
+    "swahili"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

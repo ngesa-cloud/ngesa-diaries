@@ -1,0 +1,24 @@
+{
+  "actor_name": "David Vincent Onyango",
+  "voice_source": "actor",
+  "is_real_person": true,
+  "signature_date": "2026-03-15",
+  "expiry": null,
+  "revoked": false,
+  "revocation_date": null,
+  "permitted_uses": [
+    "podcast narration",
+    "ai voice cloning",
+    "commercial distribution"
+  ],
+  "licensing_terms": {
+    "exclusivity": "non-exclusive",
+    "territory": "worldwide",
+    "medium": "digital audio podcasts, open-source web platform, rss syndication",
+    "cloning_terms": "Voice model locked strictly for Ngesa Diaries episodes authored and verified by Dominic Nyongesa."
+  },
+  "legal_jurisdiction": "Republic of Kenya (Data Protection Act 2019)",
+  "contract_reference": "V123-KE-DVO-2026-081",
+  "talent_email": "david.onyango.vox@gmail.com",
+  "producer": "Dominic Nyongesa (@ngesa-cloud)"
+}
