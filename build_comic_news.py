@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+#!/usr/bin/env python3
+"""
+build_comic_news.py - Generates the Graphic Novel News Platform for Ngesa Chronicle
+Host & Lead Investigator: Dominic Nyongesa (@ngesa-cloud)
+Theme: Comic Book Journalism / Animated Visual Storytelling / Noir News Agency
+"""
+
+import os
+
+def generate():
+    html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -2025,3 +2035,10 @@ Generated via Ngesa Starpod Intelligence Engine.`;
   </script>
 </body>
 </html>
+'''
+    with open('/home/yourusername/Projects/darknet-kenya/index.html', 'w', encoding='utf-8') as f:
+        f.write(html)
+    print("Successfully built index.html for Graphic Novel News Platform!")
+
+if __name__ == '__main__':
+    generate()
