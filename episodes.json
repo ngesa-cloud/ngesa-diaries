@@ -14,7 +14,7 @@
       "WESTERN KENYA",
       "TABOO"
     ],
-    "synopsis": "In the villages along the shores of Lake Victoria and the rolling hills of Gucha, midnight brings an unsettling silence\u2014broken only by the sudden, violent slap of wet mud against corrugated iron roofs. This is the realm of the Night Runners (Abanyasi in Luhya, Omoirori in Gusii): individuals who claim an irresistible hereditary compulsion to strip bare in the dead of night, sprint through thorny thickets at impossible speeds, flick glowing embers into homesteads, and terrify their neighbors without ever breaking inside.",
+    "synopsis": "Kulikua na kisa kule Kisii na Homa Bay... watu wamelala fofofo saa nane za usiku, ghafla unaskia mchanga unamwagwa kwa bati! Twa twa twa! Na unadhani ni mwizi? La hasha! Ni Night Runner akikimbia uchi porini na kurusha cheche za moto! Wanakijiji wakiamka, mbwa hawabweki na hakuna hata unyayo! Wanapita vichakani kwa kasi ya ajabu bila kuchomwa na miiba. Wazee wanasema ni urithi wa damu kutoka vizazi vya kale. Maze, unadhani ni mchezo? Eeh, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Hereditary Nocturnal Somnambulism / Parapsychological Guild",
       "reported_behavior": "Throwing gravel on roofs, riding wild leopards and hyenas, racing through dense sisal without thorns piercing skin",
@@ -45,8 +45,12 @@
     ],
     "audioUrl": "/audio/ep001.mp3",
     "duration_manifest": "01:26",
-    "lufs": -16.5,
-    "voice_source": "actor"
+    "lufs": -16.2,
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 01: Night Runners wa Western Kenya. Uchunguzi wetu unathibitisha tabia hii si ya wizi bali ni compulsion ya kurithi. Hakuna madhara ya kimwili yanayoripotiwa lakini athari ya kisaikolojia kwa jamii ni kubwa sana. Kesi imefungwa chini ya hadhi ya Folkoric Anomalous Phenomenon. Eeh, hii ni mwecheche!"
   },
   {
     "id": "ep02",
@@ -63,7 +67,7 @@
       "NAIROBI",
       "NGONG ROAD"
     ],
-    "synopsis": "For decades, Nairobi commuters have whispered tales of the ghost bus. It appears only past 1:00 AM on rainy nights between Adams Arcade and the Karen forest junction: a vintage red Kenya Bus Service or retro matatu with a glowing yellow destination board reading 'TERMINAL'. Stranded commuters running for cover step aboard, only to realize none of the passengers ever blink, the driver never turns his head, and the vehicle never stops until it enters the forest.",
+    "synopsis": "Maze skia hii story bana... Ngong Road saa tisa za usiku katikati ya msitu mnene wa Karen. Basi nyekundu ya zamani ya KBS namba 666 inatokea kwenye kona bila taa wala sauti ya injini! Dereva ametazama mbele haongei, makanga amesimama mlangoni hana uso, lakini ndani abiria wamejaa wametulia kimya kabisa. Na watu waka-board hiyo basi! Wanaingia lakini hakuna anayeshuka Nairobi mzima! Asubuhi ikifika, unakuta gari imeyeyuka kwenye ukungu wa msitu. Bana, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Phantom Vehicle Apparition & Collective Urban Anxiety",
       "reported_behavior": "Faint engine purr with no tire spray on wet tarmac; interior illuminated by dim amber incandescent bulb; silence inside the cabin",
@@ -84,8 +88,12 @@
     ],
     "audioUrl": "/audio/ep002.mp3",
     "duration_manifest": "01:14",
-    "lufs": -16.5,
-    "voice_source": "actor"
+    "lufs": -16.2,
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 02: Ghost Bus ya Ngong Road KBS 666. Rekodi za Kenya Bus Services za miaka ya tisini zinaonyesha basi hili lilipata ajali mbaya bila manusura. Tangu hapo mashahidi zaidi ya arobaini wameripoti kuiona katika maeneo yale yale saa tisa usiku. Tahadhari: Usijaribu kusimamisha gari hili."
   },
   {
     "id": "ep03",
@@ -102,7 +110,7 @@
       "DISAPPEARANCES",
       "MAASAI LORE"
     ],
-    "synopsis": "Towering above Nakuru town, the Menengai Crater is one of the largest volcanic calderas on earth. Its Kikuyu name, Kirima kia Ngoma, literally translates to 'The Hill of Devils'. In 1854, a bloody inter-clan clash between the Ilpurko and Iloikop Maasai ended with hundreds of defeated warriors being hurled into the abyss. Ever since, locals report phantom tractors farming the volcanic floor at 3:00 AM, mysterious disorientations, and hikers who walked into the caldera mist and were never seen again.",
+    "synopsis": "Imagine ukienda Menengai Crater Nakuru... mahali panaitwa Kirima kia Ngoma, kilima cha mashetani! Watu wakitembea jioni wanaskia ngoma zikilia chini ya ardhi na sauti zikiita majina yao. Mwaka wa 1854 maelfu ya mashujaa wa Maasai walisukumwa kwenye kreta hii wakati wa vita. Hadi leo watalii na wachungaji wanapotea bila viatu, na watu wakapiga picha... picha inatoka moshi na vivuli vya kutisha! Watu wa eneo hilo wanajua jioni ikifika, hutakiwi kutazama ndani ya shimo hilo. Eeh, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Geomagnetic Anomalies & Historic Trauma Apparitions",
       "reported_behavior": "Disorientation of compasses, sulfurous mist forming humanoid shapes, phantom sounds of roaring farm machinery at night",
@@ -116,7 +124,13 @@
         "text": "If you stand at the edge of Menengai Crater at dusk, the wind whistles through the jagged lava beds. But listen closer. Underneath the wind, locals swear you can hear the chanting of five hundred warriors who never came back up."
       }
     ],
-    "audioUrl": "/audio/ep003.mp3"
+    "audioUrl": "/audio/ep003.mp3",
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 03: Kirima kia Ngoma, Menengai Caldera. Shimo lenye kina cha mita mia tano na miamba ya volkano. Uchunguzi wa kijiolojia unaonyesha gesi ya sulfur inaweza kusababisha hallucinations, lakini haielezi kupotea kwa watu bila unyayo wala sauti za ngoma zinazosikika usiku.",
+    "lufs": -16.2
   },
   {
     "id": "ep04",
@@ -133,7 +147,7 @@
       "COASTAL HORROR",
       "JINN PACTS"
     ],
-    "synopsis": "Along the Swahili coast, the boundary between the living and the spirit realm is notoriously thin. From the ancient, abandoned stone city of Gedi to the narrow alleys of Mombasa Old Town, tales of majini (spirits) are woven into everyday life. Most feared is the legend of the goat-footed beauty who strolls the Mama Ngina cliffside past midnight\u2014striking up conversations with solitary men, her long flowing buibui veiling the cloven hooves beneath her ankles.",
+    "synopsis": "Mombasa raha, sivyo? Lakini tembea Mama Ngina Waterfront saa nane za usiku uone mambo! Upepo wa bahari unavuma kwa baridi, ghafla unatokeza mwanamume mtanashati mwenye sauti tamu, amevaa kanzu safi ya kizungu na kofia ya heshima. Anakusalimia kwa lugha ya staha. Lakini ukitazama chini kwa mchanga... miguu yake si ya binadamu! Ni kwato mbili za mbuzi zilizogawanyika! Na watu bado wakamsalimia kabla hawajagundua! Ukipiga kelele anayeyuka na kubaki harufu ya udi na ubani. Maze, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Coastal Jinn Folklore & Merchant Wealth Pacts",
       "reported_behavior": "Shadow apparitions shifting into black cats (*paka wa dukani*), sudden overwhelming scent of rosewater followed by sulfur, physical paralyses",
@@ -147,7 +161,13 @@
         "text": "In Old Town Mombasa, ancient coral rag walls hold centuries of maritime secrets. If you ask any elder near the fish market about spirits, they won't laugh. They'll tell you to keep your head down when you walk past the baobabs after midnight."
       }
     ],
-    "audioUrl": "/audio/ep004.mp3"
+    "audioUrl": "/audio/ep004.mp3",
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 04: The Cloven-Footed Jinn wa Mama Ngina. Visiwa vya Pwani vina rekodi ndefu za majini na viumbe vya baharini. Uthibitisho wa kimwili uliokusanywa ni alama za kwato za wanyama zisizo na mfuatano katika mchanga wa Mama Ngina Drive. Ushauri wa kiusalama: Usiongee na wageni usiku wa manane.",
+    "lufs": -16.2
   },
   {
     "id": "ep05",
@@ -164,7 +184,7 @@
       "PHANTOM BELL",
       "KENYAN YOUTH"
     ],
-    "synopsis": "Almost every Kenyan who survived four years in a provincial or national boarding school remembers the 3:00 AM terror. Colonial-era stone dormitories built atop old colonial settlers' quarters or sacred forest groves; the rhythmic tapping above the wooden ceiling boards; the phantom matron dressed in white pacing the tiled washrooms; and the eerie brass school bell that clangs during thunderstorms while all students are locked inside.",
+    "synopsis": "Kila Mkenya aliyesoma boarding anajua hii story ya kutisha! Bweni la zamani la shule za Limuru na Meru lililojengwa juu ya makaburi ya enzi za ukoloni. Saa tisa za usiku wakati kila mtu amelala, kengele ya chuma inaanza kulia yenyewe! Ding! Dong! Kisha unaskia viatu virefu vya high heels vikitembea polepole kwa corridor tupu ya saruji! Clack! Clack! Clack! Milango inafunguka yenyewe, blanketi zinavutwa kutoka vitandani, na wasichana wakatoroka kupitia madirishani! Asubuhi wakichunguza, hakuna mtu yeyote aliyekuwemo! Eeh, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Institutional Hysteria & Colonial Heritage Apparitions",
       "reported_behavior": "Collective sleep paralysis on top bunks, phantom typewriter sounds in locked staffrooms, unpowered bells ringing",
@@ -178,7 +198,13 @@
         "text": "There is a unique terror that only Kenyan boarding school kids understand. The silence of the dorm at 3:00 AM. The iron bunk creaks. And suddenly, you feel the mattress sink under the weight of someone sitting at the foot of your bed."
       }
     ],
-    "audioUrl": "/audio/ep005.mp3"
+    "audioUrl": "/audio/ep005.mp3",
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 05: Boarding School Crypt Hauntings. Historia ya miaka ya 1930 inaonyesha baadhi ya hosteli zilijengwa juu ya maeneo ya makaburi ya walowezi na wamisionari. Ripoti za acoustic anomalies na psychogenic mass incidents zimerekodiwa rasmi.",
+    "lufs": -16.2
   },
   {
     "id": "ep06",
@@ -195,7 +221,7 @@
       "LADY IN WHITE",
       "TRUCKERS"
     ],
-    "synopsis": "The stretch of highway descending through Kikopey and Salgaa has claimed thousands of lives in catastrophic road crashes. But among long-distance transit drivers transporting cargo from Mombasa to Uganda, the danger isn't just brake failure. Decades of truckers report seeing a young woman standing barefoot in the chilly midnight fog. Those who stop to give her a lift report she never speaks, and within five kilometers, their rearview mirror shows an empty passenger seat soaked in cold moisture.",
+    "synopsis": "Highway ya Nakuru kuelekea Eldoret pale Kikopey Flats... barabara iliyonyooka lakini giza ni totoro. Madereva wa malori ya masafa marefu wanasimulia kisa cha mwanamke aliyevaa gauni jeupe la harusi, amesimama kando ya lami akiinua mkono kuomba lifti kwenye baridi kali. Dereva mwenye huruma akasimamisha gari na kumkaribisha kwenye kiti cha mbele. Baada ya kilomita tano dereva akimtazama, kiti kiko wazi kabisa, lakini harufu ya maua ya makaburini imetanda garini na breki zinakata ghafla! Wengi wamepoteza maisha kwenye kona hiyo. Bana, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Highway Specter & Post-Traumatic Collective Memory",
       "reported_behavior": "Apparition vanishing while vehicle is traveling at 80 km/h; sudden inexplicable loss of engine manifold pressure at exact geographical markers",
@@ -209,7 +235,13 @@
         "text": "Every truck driver who drives the Northern Corridor knows the black spots: Salgaa, Sachangwan, Kikopey. But when the midnight fog rolls off the escarpment, the greatest danger isn't the road. It's what waits on the shoulder."
       }
     ],
-    "audioUrl": "/audio/ep006.mp3"
+    "audioUrl": "/audio/ep006.mp3",
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 06: The Vanishing Lady wa Kikopey. Eneo hili la highway lina historia ya ajali nyingi zisizoelezeka za magari. Ingawa wataalamu wanasema ni uchovu wa madereva, ushuhuda wa madereva zaidi ya thelathini una maelezo sawa ya mwanamke mweupe.",
+    "lufs": -16.2
   },
   {
     "id": "ep07",
@@ -226,7 +258,7 @@
       "TRUE CRIME",
       "KILIFI"
     ],
-    "synopsis": "In early 2023, the world learned of the horrors hidden inside the dense, thorny scrubland of Chakama Ranch in Shakahola. Under the twisted doctrine of self-proclaimed televangelist Paul Mackenzie, hundreds of families starved themselves in remote makeshift camps in anticipation of the end of the world. This declassified investigative episode tracks how forensic pathologists, human rights defenders, and local trackers uncovered over 400 shallow mass graves hidden beneath the thorny thickets.",
+    "synopsis": "Hii si hadithi ya kubuni, hii ni ukweli mzito na mchungu wa msitu wa Chakama kule Shakahola. Ekari mia nane za msitu wa miiba katika kaunti ya Kilifi, mahali ambapo mamia ya waumini walidanganywa kufunga chakula na maji hadi kufa ili wakutane na muumba wao kabla ya mwisho wa dunia. Wachunguzi walipoingia ndani ya msitu huo, walikuta makaburi ya halaiki yaliyofukiwa kwa siri. Hata baada ya miezi kadhaa, ukimya wa msitu huo unatia hofu moyoni. Ni ushahidi wa jinsi imani potovu inavyoweza kugeuka kuwa mauti ya kutisha. Giza hapa lina siri kubwa!",
     "field_dossier": {
       "phenomenon": "Coercive Mind Control & Extreme Eschatological Cult Mass Suicide",
       "reported_behavior": "Armed enforcers preventing mothers and children from drinking water; structured camps named 'Judea' and 'Bethlehem' hidden miles off the tarmac",
@@ -240,7 +272,13 @@
         "text": "Some monsters do not hide in folklore. Some monsters walk among us in three-piece suits. Deep in the thorny acacia plains of Kilifi County, an 800-acre ranch became a graveyard for over four hundred souls."
       }
     ],
-    "audioUrl": "/audio/ep007.mp3"
+    "audioUrl": "/audio/ep007.mp3",
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 07: Shakahola Cult Forensics. Uchunguzi wa kitabibu na kiintelijensia wa tukio baya zaidi la itikadi kali nchini Kenya. Miili zaidi ya mia nne na thelathini ilipatikana katika maeneo mbalimbali ya msitu. Kesi hii inabaki kuwa kumbukumbu ya hatari ya manipolyesheni ya kisaikolojia.",
+    "lufs": -16.2
   },
   {
     "id": "ep08",
@@ -257,7 +295,7 @@
       "CRYPTID",
       "KAKAMEGA FOREST"
     ],
-    "synopsis": "Deep inside the Kakamega Forest\u2014Kenya's last remaining tropical rainforest\u2014and across the Nandi Hills, generations of indigenous hunters have told tales of the Chemosit (often called the Nandi Bear by British colonial naturalists). Described as a fearsome half-man, half-hyena beast that climbs silently through the canopy and kills its prey by scalping the skull, the legend has baffled anthropologists and cryptozoologists for over a century.",
+    "synopsis": "Msitu mkubwa wa Kakamega na vilele vya vilima vya Nandi... wazee wa kabila la Nandi na Luhya wanamfahamu kiumbe anayeitwa Chemosit au Nandi Bear! Wanasema ni mnyama mkubwa nusu simba nusu mtu, mwenye manyoya mekundu, anayetembea kwa miguu miwili na kutoa kicheko kama binadamu gizani! Hakai chini bali anajificha juu ya matawi ya miti mirefu akingoja mtu apite peke yake, kisha anaruka na kumpiga kichwani ili ale ubongo tu na kuacha mwili mzima! Watafiti wa Kizungu walijaribu kumwinda miaka ya 1920 lakini wakaishia kukimbia! Maze, unadhani ni hekaya za watoto? Eeh, hii ni mwecheche!",
     "field_dossier": {
       "phenomenon": "Cryptid Lore & Prehistoric Megafauna Survival Legends",
       "reported_behavior": "Eerie high-pitched siren calls at midnight, tree canopy stalking, predation targeting honey-gatherers",
@@ -271,6 +309,12 @@
         "text": "In the dense rainforest canopy of Kakamega, sunlight rarely hits the forest floor. But when the night falls, the forest elders speak in hushed whispers of the Chemosit: the beast that never leaves its prey intact."
       }
     ],
-    "audioUrl": "/audio/ep008.mp3"
+    "audioUrl": "/audio/ep008.mp3",
+    "voice_source": "cloned_voice",
+    "voice_actor": "Dominic Nyongesa (Arnold Malcom)",
+    "voice_reference": "source_voice/dominic_voice_reference.mp3",
+    "voice_style": "Nairobi Sheng Urban Noir (Mwecheche)",
+    "ai_debrief": "Dossier Analysis ya Case 08: Chemosit Cryptid Investigation. Ripoti za kihistoria kutoka kwa maafisa wa kikoloni kama C.W. Hobley na Geoffrey Williams zilithibitisha kuwepo kwa mnyama asiyetambuliwa wa jamii ya hyena au dubu wa kale. Hadi leo msitu wa Kakamega una mafumbo ambayo sayansi haijapata majibu yake.",
+    "lufs": -16.2
   }
 ]

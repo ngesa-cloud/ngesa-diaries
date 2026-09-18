@@ -529,6 +529,74 @@
       box-shadow: 5px 5px 0px rgba(255,255,255,0.4);
     }
 
+    /* VOICE CLONE & NARRATOR IDENTITY STRIP */
+    .voice-clone-strip {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px 12px;
+      margin: 14px 0 16px 0;
+      padding: 10px 14px;
+      background: rgba(255, 42, 75, 0.05);
+      border: 1.5px dashed rgba(255, 42, 75, 0.4);
+      border-radius: 6px;
+      font-family: var(--font-grotesk);
+      font-size: 11.5px;
+    }
+    body.theme-midnight .voice-clone-strip {
+      background: rgba(255, 42, 75, 0.12);
+      border-color: rgba(255, 42, 75, 0.5);
+    }
+    .voice-clone-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--crimson);
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+    }
+    .pulse-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--crimson);
+      box-shadow: 0 0 8px var(--crimson);
+      animation: pulseGlow 1.5s infinite;
+      display: inline-block;
+    }
+    @keyframes pulseGlow {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.35; transform: scale(1.35); }
+    }
+    .btn-voice-ref {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--ink-black);
+      color: #fff;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 999px;
+      padding: 5px 13px;
+      font-size: 11px;
+      font-weight: 700;
+      cursor: url('cursor_finger_32.png') 6 4, pointer !important;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .btn-voice-ref:hover {
+      background: var(--crimson);
+      border-color: var(--crimson);
+      transform: translateY(-1px);
+    }
+    .voice-style-tag {
+      color: var(--lead-gray);
+      font-size: 11px;
+      font-weight: 600;
+      font-style: italic;
+    }
+    body.theme-midnight .voice-style-tag {
+      color: #9aa0a6;
+    }
+
     /* HERO RIGHT: THE MANGA COMIC PANELS (From Dribbble Reference) */
     .manga-panels-stage {
       position: relative;
@@ -1465,6 +1533,18 @@
             In the villages along the shores of Lake Victoria and the rolling hills of Gucha, midnight brings an unsettling silence—broken only by the sudden, violent slap of wet mud against corrugated iron roofs. This is the realm of the Night Runners (Abanyasi in Luhya, Omoirori in Gusii): individuals who claim an irresistible hereditary compulsion to strip bare in the dead of night, sprint through thorny thickets at impossible speeds, flick glowing embers into homesteads, and terrify their neighbors without ever breaking inside.
           </div>
 
+          <!-- VOICE CLONE & NARRATOR IDENTITY STRIP -->
+          <div class="voice-clone-strip">
+            <div class="voice-clone-badge">
+              <span class="pulse-dot"></span>
+              <span>VOICE CLONE IDENTITY: DOMINIC NYONGESA</span>
+            </div>
+            <button class="btn-voice-ref" onclick="playVoiceRef(this)" id="btn-voice-ref">
+              <span>🔊</span> <span>Play Original Video Audio Sample</span>
+            </button>
+            <div class="voice-style-tag">Style: Nairobi Sheng Urban Noir • "Eeh, hii ni mwecheche!"</div>
+          </div>
+
           <div class="hero-cta-row">
             <button class="btn-hero-listen" onclick="toggleAudio()" id="btn-hero-listen">
               <span id="hero-play-icon">▶</span> <span id="hero-play-label">LISTEN TO CASE (SPACE)</span>
@@ -1495,12 +1575,15 @@
         <!-- Panel 2: Center Tilted Action Panel -->
         <div class="comic-panel-action" id="comic-panel-action">
           <img src="panel_action_ep01.jpg" alt="Case Action Art" id="action-panel-img">
-          <div class="action-speech-bubble" id="action-speech-bubble">K-Kile kiumbe... Kinarudi!</div>
+          <div class="action-speech-bubble" id="action-speech-bubble">Twa twa twa! K-Kile kiumbe... Kinarudi!</div>
         </div>
 
         <!-- Panel 3: Right Inspector Portrait -->
         <div class="comic-panel-investigator">
           <img src="panel_investigator.jpg" alt="Dominic Nyongesa">
+          <div class="action-speech-bubble" style="top: 24px; left: -22px; transform: rotate(-3deg); font-size: 13px; max-width: 175px; background: #fff; border: 2.5px solid #000; padding: 6px 12px; border-radius: 12px; font-weight: 800; font-family: var(--font-grotesk); box-shadow: 4px 4px 0 #000; z-index: 10;">
+            Giza lina siri... Eeh, mwecheche!
+          </div>
           <div class="investigator-badge">
             <span class="name">DOMINIC NYONGESA</span>
             <span class="role">LEAD INVESTIGATOR</span>
@@ -1749,14 +1832,14 @@
         num: 1,
         title: "The Midnight Knock (The Night Runners of Western Kenya)",
         category: "FOLKLORE & OCCULT PHENOMENA",
-        tagline: "Mud slaps on iron roofs, supernatural speed, and the hereditary night runners of Lake Victoria.",
-        duration: "38:15",
+        tagline: "Kulikua na kisa kule Kisii na Homa Bay... Twa twa twa! Eeh, hii ni mwecheche!",
+        duration: "33:00",
         location: "Homa Bay & Kisii Counties",
         kanji: "夜の走者 // USIKU WA MANANE",
-        speech: "K-Kile kiumbe... Kinarudi!",
+        speech: "Twa twa twa! K-Kile kiumbe... Kinarudi!",
         actionImg: "panel_action_ep01.jpg",
         audioUrl: "audio/ep001.mp3",
-        synopsis: "In the villages along the shores of Lake Victoria and the rolling hills of Gucha, midnight brings an unsettling silence—broken only by the sudden, violent slap of wet mud against corrugated iron roofs. This is the realm of the Night Runners (Abanyasi in Luhya, Omoirori in Gusii): individuals who claim an irresistible hereditary compulsion to strip bare in the dead of night, sprint through thorny thickets at impossible speeds, flick glowing embers into homesteads, and terrify their neighbors without ever breaking inside.",
+        synopsis: "Kulikua na kisa kule Kisii na Homa Bay... watu wamelala fofofo saa nane za usiku, ghafla unaskia mchanga unamwagwa kwa bati! Twa twa twa! Na unadhani ni mwizi? La hasha! Ni Night Runner akikimbia uchi porini na kurusha cheche za moto! Wanakijiji wakiamka, mbwa hawabweki na hakuna hata unyayo! Wanapita vichakani kwa kasi ya ajabu bila kuchomwa na miiba. Wazee wanasema ni urithi wa damu kutoka vizazi vya kale. Maze, unadhani ni mchezo? Eeh, hii ni mwecheche!",
         field: {
           phenomenon: "Hereditary Nocturnal Somnambulism / Parapsychological Guild",
           behavior: "Throwing gravel on roofs, riding wild leopards and hyenas, racing through dense sisal without thorns piercing skin.",
@@ -1764,10 +1847,10 @@
           scientific: "A combination of hereditary psychological manic-dissociative states, generational superstition, and village psychological warfare."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "It's 3:15 AM in a sleeping village near Kendu Bay. The crickets suddenly stop chirping. Then comes the sound: a rhythmic metallic rattling against the iron sheets of your roof, followed by wet dirt raining down on your door." },
-          { time: "00:45", speaker: "Dominic", text: "Every Kenyan who grew up in the village was told the rule: Do not open that door. Do not shine your torch into the dark." },
-          { time: "01:20", speaker: "Mzee Dennis (Village Elder)", text: "Night running is in the blood. The runner doesn't want to steal your cow. They don't want to hurt you physically. Their curse is the thrill of fear. They can sprint through a fence of thorns and come out without a single scratch." },
-          { time: "02:50", speaker: "Dominic", text: "Welcome to Ngesa Diaries. I'm Dominic Nyongesa. Tonight: Case File 01 — The Secret Guild of the Night Runners." }
+          { time: "00:00", speaker: "Dominic", text: "Kulikua na kisa kule Kisii na Homa Bay... watu wamelala fofofo saa nane za usiku, ghafla unaskia mchanga unamwagwa kwa bati! Twa twa twa!" },
+          { time: "00:10", speaker: "Dominic", text: "Na unadhani ni mwizi? La hasha! Ni Night Runner akikimbia uchi porini na kurusha cheche za moto!" },
+          { time: "00:20", speaker: "Dominic", text: "Wanakijiji wakiamka, mbwa hawabweki na hakuna hata unyayo! Wanapita vichakani kwa kasi ya ajabu bila kuchomwa na miiba." },
+          { time: "00:28", speaker: "Dominic", text: "Wazee wanasema ni urithi wa damu kutoka vizazi vya kale. Maze, unadhani ni mchezo? Eeh, hii ni mwecheche!" }
         ]
       },
       {
@@ -1775,14 +1858,14 @@
         num: 2,
         title: "The Ghost Bus of Ngong Road (KBS 666 & The Red Matatu)",
         category: "URBAN LEGENDS",
-        tagline: "The midnight phantom transit that stops for stranded commuters near the forest cemetery.",
-        duration: "42:10",
+        tagline: "Basi nyekundu ya KBS namba 666 inatokea bila sauti ya injini... Bana, hii ni mwecheche!",
+        duration: "33:40",
         location: "Ngong Road & Forest Border, Nairobi",
         kanji: "幽霊バス // BASI LA MAZIMWI",
-        speech: "Basi halisimami... Halina dereva!",
+        speech: "Basi halina dereva... Na watu waka-board?!",
         actionImg: "panel_action_ep02.jpg",
         audioUrl: "audio/ep002.mp3",
-        synopsis: "For decades, Nairobi commuters have whispered tales of the ghost bus. It appears only past 1:00 AM on rainy nights between Adams Arcade and the Karen forest junction: a vintage red Kenya Bus Service or retro matatu with a glowing yellow destination board reading 'TERMINAL'. Stranded commuters step aboard, only to realize none of the passengers ever blink, the driver never turns his head, and the vehicle never stops until it enters the forest.",
+        synopsis: "Maze skia hii story bana... Ngong Road saa tisa za usiku katikati ya msitu mnene wa Karen. Basi nyekundu ya zamani ya KBS namba 666 inatokea kwenye kona bila taa wala sauti ya injini! Dereva ametazama mbele haongei, makanga amesimama mlangoni hana uso, lakini ndani abiria wamejaa wametulia kimya kabisa. Na watu waka-board hiyo basi! Wanaingia lakini hakuna anayeshuka Nairobi mzima! Asubuhi ikifika, unakuta gari imeyeyuka kwenye ukungu wa msitu. Bana, hii ni mwecheche!",
         field: {
           phenomenon: "Phantom Vehicle Apparition & Collective Urban Anxiety",
           behavior: "Faint engine purr with no tire spray on wet tarmac; interior illuminated by dim amber incandescent bulb; eerie silence inside the cabin.",
@@ -1790,8 +1873,10 @@
           scientific: "Hypnagogic hallucination induced by late-night fatigue and trauma associated with historical fatal crashes along the dark Ngong Road corridor."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "Imagine standing by the roadside on Ngong Road. The rain is pouring down. Your phone battery just died. Suddenly, headlights pierce the mist. An old bus slows to a stop, its pneumatic doors hissing open." },
-          { time: "01:05", speaker: "Dominic", text: "You step inside out of the rain. The air is freezing. The passengers are sitting upright, staring straight ahead. Nobody speaks. And then you notice the speedometer: it reads zero, even though the trees outside are blurring past." }
+          { time: "00:00", speaker: "Dominic", text: "Maze skia hii story bana... Ngong Road saa tisa za usiku katikati ya msitu mnene wa Karen." },
+          { time: "00:10", speaker: "Dominic", text: "Basi nyekundu ya zamani ya KBS namba 666 inatokea kwenye kona bila taa wala sauti ya injini!" },
+          { time: "00:18", speaker: "Dominic", text: "Dereva ametazama mbele haongei, makanga amesimama mlangoni hana uso, lakini ndani abiria wamejaa wametulia kimya kabisa." },
+          { time: "00:26", speaker: "Dominic", text: "Na watu waka-board hiyo basi! Wanaingia lakini hakuna anayeshuka Nairobi mzima! Bana, hii ni mwecheche!" }
         ]
       },
       {
@@ -1799,14 +1884,14 @@
         num: 3,
         title: "Kirima kia Ngoma: The Whispers of Menengai Crater",
         category: "HAUNTED GEOGRAPHY",
-        tagline: "The volcanic amphitheater where warrior ghosts, phantom tractors, and unexplained disappearances collide.",
-        duration: "46:30",
+        tagline: "Kilima cha mashetani ambapo ngoma zinalia chini ya ardhi... Eeh, hii ni mwecheche!",
+        duration: "34:10",
         location: "Menengai Caldera, Nakuru",
         kanji: "悪魔の山 // KIRIMA KIA NGOMA",
-        speech: "Mlima huu una sauti za mashujaa!",
+        speech: "Sauti za ngoma... Kirima kia Ngoma!",
         actionImg: "panel_action_ep01.jpg",
         audioUrl: "audio/ep003.mp3",
-        synopsis: "Towering above Nakuru town, Menengai Crater is one of the largest volcanic calderas on earth. Its Kikuyu name, Kirima kia Ngoma, literally translates to 'The Hill of Devils'. In 1854, a bloody clash between Maasai clans ended with hundreds of warriors hurled into the abyss. Ever since, locals report phantom tractors farming the volcanic floor at 3:00 AM and hikers who walked into the caldera mist and were never seen again.",
+        synopsis: "Imagine ukienda Menengai Crater Nakuru... mahali panaitwa Kirima kia Ngoma, kilima cha mashetani! Watu wakitembea jioni wanaskia ngoma zikilia chini ya ardhi na sauti zikiita majina yao. Mwaka wa 1854 maelfu ya mashujaa wa Maasai walisukumwa kwenye kreta hii wakati wa vita. Hadi leo watalii na wachungaji wanapotea bila viatu, na watu wakapiga picha... picha inatoka moshi na vivuli vya kutisha! Watu wa eneo hilo wanajua jioni ikifika, hutakiwi kutazama ndani ya shimo hilo. Eeh, hii ni mwecheche!",
         field: {
           phenomenon: "Geomagnetic Anomalies & Historic Trauma Apparitions",
           behavior: "Disorientation of compasses, sulfurous mist forming humanoid shapes, phantom sounds of roaring farm machinery at night.",
@@ -1814,7 +1899,10 @@
           scientific: "Geothermal hydrogen sulfide vents causing sudden hypoxic hallucinations and disorientation in the dense caldera basin."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "If you stand at the edge of Menengai Crater at dusk, the wind whistles through the jagged lava beds. But listen closer. Underneath the wind, locals swear you can hear the chanting of warriors who never came back up." }
+          { time: "00:00", speaker: "Dominic", text: "Imagine ukienda Menengai Crater Nakuru... mahali panaitwa Kirima kia Ngoma, kilima cha mashetani!" },
+          { time: "00:10", speaker: "Dominic", text: "Watu wakitembea jioni wanaskia ngoma zikilia chini ya ardhi na sauti zikiita majina yao." },
+          { time: "00:20", speaker: "Dominic", text: "Hadi leo watalii wanapotea bila viatu, na picha zikitoka ni moshi mtupu!" },
+          { time: "00:28", speaker: "Dominic", text: "Jioni ikifika, hutakiwi kutazama ndani ya shimo hilo. Eeh, hii ni mwecheche!" }
         ]
       },
       {
@@ -1822,14 +1910,14 @@
         num: 4,
         title: "The Goat-Footed Stranger of Mama Ngina (The Mombasa Jinn)",
         category: "COASTAL PARANORMAL",
-        tagline: "Ancestral spirit pacts, the haunted ruins of Gedi, and the woman who lures late-night walkers by the ocean.",
-        duration: "44:00",
+        tagline: "Miguu ya kwato za mbuzi chini ya mchanga... Maze, hii ni mwecheche!",
+        duration: "34:50",
         location: "Old Town Mombasa & Mama Ngina Waterfront",
         kanji: "海岸の魔神 // MAJINI YA PWANI",
-        speech: "Miguu ya mbuzi chini ya buibui!",
+        speech: "Kwato za mbuzi Mama Ngina... Eeh, mwecheche!",
         actionImg: "panel_action_ep01.jpg",
         audioUrl: "audio/ep004.mp3",
-        synopsis: "Along the Swahili coast, the boundary between the living and the spirit realm is notoriously thin. From the ancient ruins of Gedi to the narrow alleys of Mombasa Old Town, tales of majini are woven into everyday life. Most feared is the legend of the goat-footed beauty who strolls the Mama Ngina cliffside past midnight, her long flowing buibui veiling the cloven hooves beneath.",
+        synopsis: "Mombasa raha, sivyo? Lakini tembea Mama Ngina Waterfront saa nane za usiku uone mambo! Upepo wa bahari unavuma kwa baridi, ghafla unatokeza mwanamume mtanashati mwenye sauti tamu, amevaa kanzu safi ya kizungu na kofia ya heshima. Anakusalimia kwa lugha ya staha. Lakini ukitazama chini kwa mchanga... miguu yake si ya binadamu! Ni kwato mbili za mbuzi zilizogawanyika! Na watu bado wakamsalimia kabla hawajagundua! Ukipiga kelele anayeyuka na kubaki harufu ya udi na ubani. Maze, hii ni mwecheche!",
         field: {
           phenomenon: "Coastal Jinn Folklore & Merchant Wealth Pacts",
           behavior: "Shadow apparitions shifting into black cats (paka wa dukani), sudden overwhelming scent of rosewater followed by sulfur.",
@@ -1837,7 +1925,10 @@
           scientific: "Centuries-old folklore blending Afro-Arabian pre-Islamic jinn mythology with maritime trader urban anxieties."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "In Old Town Mombasa, ancient coral rag walls hold centuries of maritime secrets. If you ask any elder near the fish market about spirits, they won't laugh. They'll tell you to keep your head down when you walk past the baobabs after midnight." }
+          { time: "00:00", speaker: "Dominic", text: "Mombasa raha, sivyo? Lakini tembea Mama Ngina Waterfront saa nane za usiku uone mambo!" },
+          { time: "00:10", speaker: "Dominic", text: "Ghafla unatokeza mwanamume mtanashati mwenye kanzu safi... lakini ukitazama chini kwa mchanga: ni kwato za mbuzi!" },
+          { time: "00:20", speaker: "Dominic", text: "Na watu bado wakamsalimia kabla hawajagundua!" },
+          { time: "00:28", speaker: "Dominic", text: "Ukipiga kelele anayeyuka na kubaki harufu ya udi na ubani. Maze, hii ni mwecheche!" }
         ]
       },
       {
@@ -1845,14 +1936,14 @@
         num: 5,
         title: "The Dormitory Above the Crypt (Boarding School Hauntings)",
         category: "KENYAN NOSTALGIA HORROR",
-        tagline: "Cold hands on the top bunk, phantom footsteps in the corridor, and the bell that rings with no power.",
-        duration: "39:50",
+        tagline: "Kengele inalia bila umeme na high heels corridor... Eeh, hii ni mwecheche!",
+        duration: "33:20",
         location: "Limuru, Kikuyu & Meru Boarding Schools",
         kanji: "宿舎の亡霊 // KENGELE YA USIKU",
-        speech: "Mabuti ya kijeshi koridoni!",
+        speech: "High heels corridor... Clack! Clack! Clack!",
         actionImg: "panel_action_ep01.jpg",
         audioUrl: "audio/ep005.mp3",
-        synopsis: "Almost every Kenyan who survived four years in a provincial or national boarding school remembers the 3:00 AM terror. Colonial stone dormitories built atop old settlers' quarters or sacred forest groves; the rhythmic tapping above the wooden ceiling boards; and the eerie brass school bell that clangs during thunderstorms while all students are locked inside.",
+        synopsis: "Kila Mkenya aliyesoma boarding anajua hii story ya kutisha! Bweni la zamani la shule za Limuru na Meru lililojengwa juu ya makaburi ya enzi za ukoloni. Saa tisa za usiku wakati kila mtu amelala, kengele ya chuma inaanza kulia yenyewe! Ding! Dong! Kisha unaskia viatu virefu vya high heels vikitembea polepole kwa corridor tupu ya saruji: Clack! Clack! Clack! Milango inafunguka yenyewe, blanketi zinavutwa kutoka vitandani, na wasichana wakatoroka kupitia madirishani! Asubuhi wakichunguza, hakuna mtu yeyote aliyekuwemo! Eeh, hii ni mwecheche!",
         field: {
           phenomenon: "Institutional Hysteria & Colonial Heritage Apparitions",
           behavior: "Collective sleep paralysis on top bunks, phantom typewriter sounds in locked staffrooms, unpowered bells ringing.",
@@ -1860,7 +1951,10 @@
           scientific: "High teenage academic stress, sleep deprivation during exam cycles, and psychological contagion in isolated communal living."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "There is a unique terror that only Kenyan boarding school kids understand. The silence of the dorm at 3:00 AM. The iron bunk creaks. And suddenly, you feel the mattress sink under the weight of someone sitting at the foot of your bed." }
+          { time: "00:00", speaker: "Dominic", text: "Kila Mkenya aliyesoma boarding anajua hii story ya kutisha! Bweni la zamani lililojengwa juu ya makaburi." },
+          { time: "00:10", speaker: "Dominic", text: "Saa tisa za usiku kengele inagonga yenyewe! Kisha unaskia high heels zikitembea kwa corridor tupu: Clack! Clack! Clack!" },
+          { time: "00:20", speaker: "Dominic", text: "Milango inafunguka yenyewe, blanketi zinavutwa vitandani, na wanafunzi wakatoroka madirishani!" },
+          { time: "00:28", speaker: "Dominic", text: "Asubuhi hakuna aliyekuwepo. Eeh, hii ni mwecheche!" }
         ]
       },
       {
@@ -1868,14 +1962,14 @@
         num: 6,
         title: "The Vanishing at Kikopey (The Lady in White of Salgaa)",
         category: "HIGHWAY HORROR",
-        tagline: "The fog of the Great Rift Valley, stalled diesel engines, and the passenger who dissolves in the front seat.",
-        duration: "41:20",
+        tagline: "Mwanamke wa nguo nyeupe anaomba lifti kisha anayeyuka... Bana, hii ni mwecheche!",
+        duration: "34:40",
         location: "Nakuru-Eldoret Highway & Kikopey Flats",
         kanji: "白い服の女 // DEREVA WA USIKU",
-        speech: "Alitoweka gari likiwa 80km/h!",
+        speech: "Mwanamke wa Kikopey... Breki zikakata!",
         actionImg: "panel_action_ep02.jpg",
         audioUrl: "audio/ep006.mp3",
-        synopsis: "The stretch of highway descending through Kikopey and Salgaa has claimed thousands of lives in catastrophic crashes. But among long-distance transit drivers transporting cargo from Mombasa to Uganda, the danger isn't just brake failure. Decades of truckers report seeing a young woman standing barefoot in the chilly midnight fog.",
+        synopsis: "Highway ya Nakuru kuelekea Eldoret pale Kikopey Flats... barabara iliyonyooka lakini giza ni totoro. Madereva wa malori ya masafa marefu wanasimulia kisa cha mwanamke aliyevaa gauni jeupe la harusi, amesimama kando ya lami akiinua mkono kuomba lifti kwenye baridi kali. Dereva mwenye huruma akasimamisha gari na kumkaribisha kwenye kiti cha mbele. Baada ya kilomita tano dereva akimtazama, kiti kiko wazi kabisa, lakini harufu ya maua ya makaburini imetanda garini na breki zinakata ghafla! Wengi wamepoteza maisha kwenye kona hiyo. Bana, hii ni mwecheche!",
         field: {
           phenomenon: "Highway Specter & Post-Traumatic Collective Memory",
           behavior: "Apparition vanishing while vehicle is traveling at 80 km/h; sudden inexplicable loss of engine manifold pressure at exact markers.",
@@ -1883,7 +1977,10 @@
           scientific: "Severe driver highway hypnosis, circadian rhythm crashes, and psychological manifestations of survivor guilt along high-fatality roads."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "Every truck driver who drives the Northern Corridor knows the black spots: Salgaa, Sachangwan, Kikopey. But when the midnight fog rolls off the escarpment, the greatest danger isn't the road. It's what waits on the shoulder." }
+          { time: "00:00", speaker: "Dominic", text: "Highway ya Nakuru kuelekea Eldoret pale Kikopey Flats... barabara iliyonyooka lakini giza ni totoro." },
+          { time: "00:10", speaker: "Dominic", text: "Mwanamke mwenye gauni jeupe la harusi amesimama kando ya lami kuomba lifti kwenye baridi kali." },
+          { time: "00:20", speaker: "Dominic", text: "Akiingia garini, baada ya kilomita tano unatazama pembeni: kiti kiko wazi lakini harufu ya maua imetanda!" },
+          { time: "00:28", speaker: "Dominic", text: "Ghafla breki zinakata kwenye kona! Bana, hii ni mwecheche!" }
         ]
       },
       {
@@ -1891,14 +1988,14 @@
         num: 7,
         title: "The Starvation Woods of Chakama (The Shakahola Cult Files)",
         category: "TRUE CRIME INVESTIGATION",
-        tagline: "An 800-acre forest of silence: The harrowing investigative forensics of Kenya's deadliest cult.",
-        duration: "52:15",
+        tagline: "Ekari mia nane za msitu wa Shakahola... Giza hapa lina siri kubwa!",
+        duration: "35:00",
         location: "Shakahola Forest, Chakama Ranch, Kilifi",
         kanji: "沈黙の森 // SIRI YA SHAKAHOLA",
-        speech: "Makaburi 400 chini ya miti!",
+        speech: "Ekari mia nane za Shakahola... Giza lina siri!",
         actionImg: "panel_action_ep01.jpg",
         audioUrl: "audio/ep007.mp3",
-        synopsis: "In early 2023, the world learned of the horrors hidden inside the dense scrubland of Chakama Ranch in Shakahola. Under the doctrine of self-proclaimed televangelist Paul Mackenzie, hundreds starved themselves anticipating the end of the world. This declassified episode tracks how forensic pathologists and local trackers uncovered over 400 mass graves.",
+        synopsis: "Hii si hadithi ya kubuni, hii ni ukweli mzito na mchungu wa msitu wa Chakama kule Shakahola. Ekari mia nane za msitu wa miiba katika kaunti ya Kilifi, mahali ambapo mamia ya waumini walidanganywa kufunga chakula na maji hadi kufa ili wakutane na muumba wao kabla ya mwisho wa dunia. Wachunguzi walipoingia ndani ya msitu huo, walikuta makaburi ya halaiki yaliyofukiwa kwa siri. Hata baada ya miezi kadhaa, ukimya wa msitu huo unatia hofu moyoni. Ni ushahidi wa jinsi imani potovu inavyoweza kugeuka kuwa mauti ya kutisha. Giza hapa lina siri kubwa!",
         field: {
           phenomenon: "Coercive Mind Control & Extreme Eschatological Mass Suicide",
           behavior: "Armed enforcers preventing mothers and children from drinking water; structured camps named 'Judea' and 'Bethlehem' hidden miles off the tarmac.",
@@ -1906,7 +2003,10 @@
           scientific: "Systematic charismatic authority exploitation, cognitive isolation, and induced communal delirium."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "Some monsters do not hide in folklore. Some monsters walk among us in three-piece suits. Deep in the thorny acacia plains of Kilifi County, an 800-acre ranch became a graveyard for over four hundred souls." }
+          { time: "00:00", speaker: "Dominic", text: "Hii si hadithi ya kubuni, hii ni ukweli mzito na mchungu wa msitu wa Chakama kule Shakahola." },
+          { time: "00:10", speaker: "Dominic", text: "Ekari mia nane za msitu wa Kilifi ambapo mamia walifundishwa kufunga chakula na maji hadi kufa." },
+          { time: "00:20", speaker: "Dominic", text: "Wachunguzi walipofika walikuta makaburi ya halaiki yaliyofukiwa kwa siri chini ya mchanga." },
+          { time: "00:28", speaker: "Dominic", text: "Ni ushahidi wa hatari ya imani potovu. Giza hapa lina siri kubwa!" }
         ]
       },
       {
@@ -1914,14 +2014,14 @@
         num: 8,
         title: "The Brain-Eater of Kakamega (The Legend of the Chemosit)",
         category: "CRYPTID INVESTIGATION",
-        tagline: "The ferocious mythological man-beast of the Nandi and Kakamega rainforests.",
-        duration: "37:40",
+        tagline: "Dubu wa Nandi anayeruka kutoka matawi ya miti... Eeh, hii ni mwecheche!",
+        duration: "38:40",
         location: "Kakamega & Nandi Rainforest Canopy",
         kanji: "密林の怪物 // DUDU LA KAKAMEGA",
-        speech: "Akilia juu ya matawi, kimbia!",
+        speech: "Chemosit wa Kakamega... Anayekula ubongo tu!",
         actionImg: "panel_action_ep01.jpg",
         audioUrl: "audio/ep008.mp3",
-        synopsis: "Deep inside Kakamega Forest—Kenya's last remaining tropical rainforest—and across the Nandi Hills, generations of indigenous hunters have told tales of the Chemosit (often called the Nandi Bear). Described as a fearsome half-man, half-hyena beast that climbs silently through the canopy and scalps its prey.",
+        synopsis: "Msitu mkubwa wa Kakamega na vilele vya vilima vya Nandi... wazee wa kabila la Nandi na Luhya wanamfahamu kiumbe anayeitwa Chemosit au Nandi Bear! Wanasema ni mnyama mkubwa nusu simba nusu mtu, mwenye manyoya mekundu, anayetembea kwa miguu miwili na kutoa kicheko kama binadamu gizani! Hakai chini bali anajificha juu ya matawi ya miti mirefu akingoja mtu apite peke yake, kisha anaruka na kumpiga kichwani ili ale ubongo tu na kuacha mwili mzima! Watafiti wa Kizungu walijaribu kumwinda miaka ya 1920 lakini wakaishia kukimbia! Maze, unadhani ni hekaya za watoto? Eeh, hii ni mwecheche!",
         field: {
           phenomenon: "Cryptid Lore & Prehistoric Megafauna Survival Legends",
           behavior: "Eerie high-pitched siren calls at midnight, tree canopy stalking, predation targeting solitary gatherers.",
@@ -1929,7 +2029,10 @@
           scientific: "Folkloric memory of prehistoric giant baboons (Theropithecus oswaldi) or aberrant giant hyenas surviving in isolated montane pockets."
         },
         transcript: [
-          { time: "00:00", speaker: "Dominic", text: "In the dense rainforest canopy of Kakamega, sunlight rarely hits the forest floor. But when the night falls, the forest elders speak in hushed whispers of the Chemosit: the beast that never leaves its prey intact." }
+          { time: "00:00", speaker: "Dominic", text: "Msitu mkubwa wa Kakamega na vilele vya vilima vya Nandi... wazee wanamfahamu kiumbe anayeitwa Chemosit!" },
+          { time: "00:10", speaker: "Dominic", text: "Mnyama nusu simba nusu mtu, mwenye manyoya mekundu, anayetembea kwa miguu miwili gizani!" },
+          { time: "00:20", speaker: "Dominic", text: "Anajificha juu ya matawi ya miti akingoja mpita njia ili amle ubongo tu na kuacha mwili!" },
+          { time: "00:28", speaker: "Dominic", text: "Maze, unadhani ni hekaya za watoto? Eeh, hii ni mwecheche!" }
         ]
       }
     ];
@@ -2217,6 +2320,22 @@ Generated via Ngesa Starpod AI Engine.`;
       navigator.clipboard.writeText(body.innerText);
       btn.innerText = "✓ Copied";
       setTimeout(() => btn.innerText = "📋 Copy", 1500);
+    }
+
+    let voiceRefAudio = new Audio('audio/dominic_voice_reference.mp3');
+    function playVoiceRef(btn) {
+      if (!voiceRefAudio.paused) {
+        voiceRefAudio.pause();
+        voiceRefAudio.currentTime = 0;
+        btn.querySelector('span:last-child').innerText = 'Play Original Video Audio Sample';
+      } else {
+        voiceRefAudio.play().then(() => {
+          btn.querySelector('span:last-child').innerText = '⏹ Stop Sample ("Mwecheche!")';
+        }).catch(e => console.warn(e));
+        voiceRefAudio.onended = () => {
+          btn.querySelector('span:last-child').innerText = 'Play Original Video Audio Sample';
+        };
+      }
     }
 
     let aiVoicePlayer = new Audio();
