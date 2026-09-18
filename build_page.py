@@ -83,54 +83,51 @@ page_content = """<!doctype html>
       overflow-x: hidden;
       overflow-y: auto;
       transition: background-color 0.3s ease, color 0.3s ease;
-      cursor: default;
+      cursor: url('cursor_finger_32.png') 6 4, auto;
     }
 
-    /* Tactile Analog Film Grain Overlay */
-    #film-grain {
-      position: fixed;
-      inset: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      z-index: 999;
-      opacity: 0.035;
-      mix-blend-mode: multiply;
+    a, button, input, textarea, select, .k-chip, .k-command-card, .case-tile, .brand-cluster, .comic-panel-action, .btn-pill-cta {
+      cursor: url('cursor_finger_32.png') 6 4, pointer !important;
     }
 
-    /* Bearplus Custom Cursor & Magnetic Ring Follower */
-    #cursor-dot {
+    /* Among Us Batman Finger Custom Cursor & Dynamic Follower */
+    #cursor-finger-follower {
       position: fixed;
       top: 0; left: 0;
-      width: 6px; height: 6px;
-      background: var(--crimson);
-      border-radius: 50%;
+      width: 44px; height: 44px;
       pointer-events: none;
       z-index: 10000;
-      transform: translate(-50%, -50%);
-      box-shadow: 0 0 8px var(--crimson);
-      transition: width 0.2s, height 0.2s, background-color 0.2s;
+      transform: translate(-6px, -4px);
+      transition: transform 0.12s cubic-bezier(0.16, 1, 0.3, 1), filter 0.2s;
+    }
+    #cursor-finger-follower img {
+      width: 100%; height: 100%;
+      object-fit: contain;
+      filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.45));
+      transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    body.cursor-hover #cursor-finger-follower img {
+      transform: scale(1.18) rotate(-6deg);
+      filter: drop-shadow(0 0 10px rgba(255, 42, 75, 0.75));
     }
     #cursor-ring {
       position: fixed;
       top: 0; left: 0;
-      width: 34px; height: 34px;
-      border: 1.5px solid var(--ink-black);
+      width: 30px; height: 30px;
+      border: 1.5px dashed var(--crimson);
       border-radius: 50%;
       pointer-events: none;
       z-index: 9999;
       transform: translate(-50%, -50%);
-      transition: width 0.28s cubic-bezier(0.16, 1, 0.3, 1), height 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s, background-color 0.25s;
+      transition: width 0.28s cubic-bezier(0.16, 1, 0.3, 1), height 0.28s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s, opacity 0.25s;
+      opacity: 0.65;
     }
     body.cursor-hover #cursor-ring {
-      width: 52px; height: 52px;
+      width: 50px; height: 50px;
       border-color: var(--crimson);
+      border-style: solid;
       background: rgba(255, 42, 75, 0.08);
-      backdrop-filter: blur(1px);
-    }
-    body.cursor-hover #cursor-dot {
-      width: 8px; height: 8px;
-      background: #000;
+      opacity: 1;
     }
 
     /* TOP NAVIGATION BAR */
@@ -1380,8 +1377,10 @@ page_content = """<!doctype html>
     <rect width="100%" height="100%" filter="url(#grainFilter)" />
   </svg>
 
-  <!-- Bearplus Custom Cursor & Spring Follower -->
-  <div id="cursor-dot"></div>
+  <!-- Among Us Batman Finger Custom Cursor Follower -->
+  <div id="cursor-finger-follower">
+    <img src="cursor_finger.png" alt="Batman Finger Cursor">
+  </div>
   <div id="cursor-ring"></div>
 
   <!-- TOP NAVIGATION BAR -->
@@ -1810,7 +1809,7 @@ page_content = """<!doctype html>
         kanji: "悪魔の山 // KIRIMA KIA NGOMA",
         speech: "Mlima huu una sauti za mashujaa!",
         actionImg: "panel_action_ep01.jpg",
-        audioUrl: "audio/ep001.mp3",
+        audioUrl: "audio/ep003.mp3",
         synopsis: "Towering above Nakuru town, Menengai Crater is one of the largest volcanic calderas on earth. Its Kikuyu name, Kirima kia Ngoma, literally translates to 'The Hill of Devils'. In 1854, a bloody clash between Maasai clans ended with hundreds of warriors hurled into the abyss. Ever since, locals report phantom tractors farming the volcanic floor at 3:00 AM and hikers who walked into the caldera mist and were never seen again.",
         field: {
           phenomenon: "Geomagnetic Anomalies & Historic Trauma Apparitions",
@@ -1833,7 +1832,7 @@ page_content = """<!doctype html>
         kanji: "海岸の魔神 // MAJINI YA PWANI",
         speech: "Miguu ya mbuzi chini ya buibui!",
         actionImg: "panel_action_ep01.jpg",
-        audioUrl: "audio/ep002.mp3",
+        audioUrl: "audio/ep004.mp3",
         synopsis: "Along the Swahili coast, the boundary between the living and the spirit realm is notoriously thin. From the ancient ruins of Gedi to the narrow alleys of Mombasa Old Town, tales of majini are woven into everyday life. Most feared is the legend of the goat-footed beauty who strolls the Mama Ngina cliffside past midnight, her long flowing buibui veiling the cloven hooves beneath.",
         field: {
           phenomenon: "Coastal Jinn Folklore & Merchant Wealth Pacts",
@@ -1856,7 +1855,7 @@ page_content = """<!doctype html>
         kanji: "宿舎の亡霊 // KENGELE YA USIKU",
         speech: "Mabuti ya kijeshi koridoni!",
         actionImg: "panel_action_ep01.jpg",
-        audioUrl: "audio/ep001.mp3",
+        audioUrl: "audio/ep005.mp3",
         synopsis: "Almost every Kenyan who survived four years in a provincial or national boarding school remembers the 3:00 AM terror. Colonial stone dormitories built atop old settlers' quarters or sacred forest groves; the rhythmic tapping above the wooden ceiling boards; and the eerie brass school bell that clangs during thunderstorms while all students are locked inside.",
         field: {
           phenomenon: "Institutional Hysteria & Colonial Heritage Apparitions",
@@ -1879,7 +1878,7 @@ page_content = """<!doctype html>
         kanji: "白い服の女 // DEREVA WA USIKU",
         speech: "Alitoweka gari likiwa 80km/h!",
         actionImg: "panel_action_ep02.jpg",
-        audioUrl: "audio/ep002.mp3",
+        audioUrl: "audio/ep006.mp3",
         synopsis: "The stretch of highway descending through Kikopey and Salgaa has claimed thousands of lives in catastrophic crashes. But among long-distance transit drivers transporting cargo from Mombasa to Uganda, the danger isn't just brake failure. Decades of truckers report seeing a young woman standing barefoot in the chilly midnight fog.",
         field: {
           phenomenon: "Highway Specter & Post-Traumatic Collective Memory",
@@ -1902,7 +1901,7 @@ page_content = """<!doctype html>
         kanji: "沈黙の森 // SIRI YA SHAKAHOLA",
         speech: "Makaburi 400 chini ya miti!",
         actionImg: "panel_action_ep01.jpg",
-        audioUrl: "audio/ep001.mp3",
+        audioUrl: "audio/ep007.mp3",
         synopsis: "In early 2023, the world learned of the horrors hidden inside the dense scrubland of Chakama Ranch in Shakahola. Under the doctrine of self-proclaimed televangelist Paul Mackenzie, hundreds starved themselves anticipating the end of the world. This declassified episode tracks how forensic pathologists and local trackers uncovered over 400 mass graves.",
         field: {
           phenomenon: "Coercive Mind Control & Extreme Eschatological Mass Suicide",
@@ -1925,7 +1924,7 @@ page_content = """<!doctype html>
         kanji: "密林の怪物 // DUDU LA KAKAMEGA",
         speech: "Akilia juu ya matawi, kimbia!",
         actionImg: "panel_action_ep01.jpg",
-        audioUrl: "audio/ep002.mp3",
+        audioUrl: "audio/ep008.mp3",
         synopsis: "Deep inside Kakamega Forest—Kenya's last remaining tropical rainforest—and across the Nandi Hills, generations of indigenous hunters have told tales of the Chemosit (often called the Nandi Bear). Described as a fearsome half-man, half-hyena beast that climbs silently through the canopy and scalps its prey.",
         field: {
           phenomenon: "Cryptid Lore & Prehistoric Megafauna Survival Legends",
@@ -2224,18 +2223,35 @@ Generated via Ngesa Starpod AI Engine.`;
       setTimeout(() => btn.innerText = "📋 Copy", 1500);
     }
 
+    let aiVoicePlayer = new Audio();
     function speakOutput(btn) {
-      const body = btn.closest('.k-output-card').querySelector('.k-output-body');
-      if ('speechSynthesis' in window) {
-        window.speechSynthesis.cancel();
-        const utter = new SpeechSynthesisUtterance(body.innerText);
-        utter.rate = 0.95; // measured noir pacing
-        window.speechSynthesis.speak(utter);
-        btn.innerText = "🔊 Speaking...";
-        utter.onend = () => btn.innerText = "🔊 Read Out";
-      } else {
-        alert("Speech synthesis not supported in this browser.");
+      if (!aiVoicePlayer.paused) {
+        aiVoicePlayer.pause();
+        aiVoicePlayer.currentTime = 0;
+        btn.innerText = "🔊 Read Out";
+        return;
       }
+      const epNum = String(currentIdx + 1).padStart(2, '0');
+      const voiceSrc = `audio/ai_case${epNum}.mp3`;
+      aiVoicePlayer.src = voiceSrc;
+      btn.innerText = "🔊 Playing Voice...";
+      aiVoicePlayer.play().then(() => {
+        btn.innerText = "⏹ Stop Voice";
+      }).catch(err => {
+        console.warn("Audio file playback fallback to speech synthesis:", err);
+        const body = btn.closest('.k-output-card').querySelector('.k-output-body');
+        if ('speechSynthesis' in window) {
+          window.speechSynthesis.cancel();
+          const utter = new SpeechSynthesisUtterance(body.innerText);
+          utter.rate = 0.95;
+          window.speechSynthesis.speak(utter);
+          btn.innerText = "🔊 Speaking...";
+          utter.onend = () => btn.innerText = "🔊 Read Out";
+        }
+      });
+      aiVoicePlayer.onended = () => {
+        btn.innerText = "🔊 Read Out";
+      };
     }
 
     function rateOutput(btn, isHelpful) {
@@ -2407,31 +2423,46 @@ Generated via Ngesa Starpod AI Engine.`;
     }
 
     // BEARPLUS CUSTOM CURSOR & DYNAMICS
-    let mouse = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+    let mouse = { x: 740, y: 380 };
     let ringPos = { x: mouse.x, y: mouse.y };
 
     function initCustomCursor() {
-      const dot = document.getElementById('cursor-dot');
+      const follower = document.getElementById('cursor-finger-follower');
       const ring = document.getElementById('cursor-ring');
-      if (!dot || !ring) return;
+      if (!follower && !ring) return;
+
+      function updateFollower(x, y) {
+        if (follower) {
+          follower.style.left = `${x}px`;
+          follower.style.top = `${y}px`;
+        }
+      }
+
+      // Initial placement
+      updateFollower(mouse.x, mouse.y);
+      if (ring) {
+        ring.style.left = `${mouse.x}px`;
+        ring.style.top = `${mouse.y}px`;
+      }
 
       window.addEventListener('mousemove', (e) => {
         mouse.x = e.clientX;
         mouse.y = e.clientY;
-        dot.style.left = `${mouse.x}px`;
-        dot.style.top = `${mouse.y}px`;
+        updateFollower(mouse.x, mouse.y);
       });
 
       function renderCursor() {
         ringPos.x += (mouse.x - ringPos.x) * 0.18;
         ringPos.y += (mouse.y - ringPos.y) * 0.18;
-        ring.style.left = `${ringPos.x.toFixed(2)}px`;
-        ring.style.top = `${ringPos.y.toFixed(2)}px`;
+        if (ring) {
+          ring.style.left = `${ringPos.x.toFixed(2)}px`;
+          ring.style.top = `${ringPos.y.toFixed(2)}px`;
+        }
         requestAnimationFrame(renderCursor);
       }
       renderCursor();
 
-      const hoverTargets = 'a, button, .case-tile, input, textarea, .k-chip, .k-command-card, .comic-panel-action';
+      const hoverTargets = 'a, button, .case-tile, input, textarea, .k-chip, .k-command-card, .comic-panel-action, .btn-pill-cta';
       document.querySelectorAll(hoverTargets).forEach(el => {
         el.addEventListener('mouseenter', () => document.body.classList.add('cursor-hover'));
         el.addEventListener('mouseleave', () => document.body.classList.remove('cursor-hover'));
