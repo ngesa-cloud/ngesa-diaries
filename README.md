@@ -1,36 +1,41 @@
-# 🕯️ `NGESA DIARIES`
+# 🗞️ `THE NGESA CHRONICLE` (Ngesa Diaries)
 
-> **Hidden Kenyan Horror Stories, Urban Legends & True Mysteries**  
-> *An open-source investigative audio documentary series and folklore archive, hosted by Dominic Nyongesa ([@ngesa-cloud](https://github.com/ngesa-cloud)).*
-
----
-
-## 🎨 Visual Preview & Design Philosophy
-
-Modeled directly after the literary dark-mode editorial aesthetic of **Mara — Oloololo Patrol**, featuring:
-* **Celestial Canvas**: Real-time canvas stars, an African flat-top acacia silhouette, and glowing midnight embers.
-* **Warm Obsidian Palette**: Night sky (`#08090d`), parchment cream (`#f2e9d8`), ochre gold (`#d9a441`), and crimson danger accents (`#ff3355`).
-* **Web Audio Synthesizer**: Low-frequency dissonant drone (D minor / tritone tension) generating an eerie soundscape upon interaction without external audio dependencies.
-* **Dominic's Emblem**: Custom logo integration with golden halo linked to Dominic's GitHub profile.
-
-![Ngesa Diaries Live HUD Showcase](ngesa_diaries_hud_rendered.png)
+> **Declassified Kenyan Occult & Urban Horror Graphic Novel Journalism**  
+> *An open-source investigative graphic novel news agency and folklore archive, hosted & edited by **Dominic Nyongesa** ([@ngesa-cloud](https://github.com/ngesa-cloud)).*
 
 ---
 
-## ⚡ Launching the Platform
+## 🎨 Visual Previews
 
-You can open the web application directly in your browser or run the local CLI:
+| Newsprint Paper Mode | Midnight Redacted Noir Mode |
+| :---: | :---: |
+| ![The Ngesa Chronicle Front Page](ngesa_chronicle_hero.png) | ![The Ngesa Chronicle Midnight Mode](ngesa_chronicle_midnight.png) |
 
-```bash
-# 1. Open directly in your browser:
-xdg-open /home/yourusername/Projects/darknet-kenya/index.html
-# Or with direct auto-entry to HUD:
-xdg-open /home/yourusername/Projects/darknet-kenya/index.html#entered
+### Full Graphic Novel Portal & Intelligence Terminal
+![The Ngesa Chronicle Full Presentation](ngesa_chronicle_full.png)
 
-# 2. Or serve locally with Python CLI:
-cd /home/yourusername/Projects/darknet-kenya
-python3 podcast.py serve --port 8000
-```
+---
+
+## 💥 Features & Engineering Highlights
+
+* **Graphic Novel News Paradigm**: A pulp comic / noir journalism engine presenting authentic Kenyan urban legends and horror lore via animated multi-frame comic layouts and onomatopoeia sound effect bursts (`TWA! TWA! TWA!`, `WHOOSH!`, `BOOM! BOOM!`).
+* **Live Breaking News Marquee Wire**: Real-time CSS infinite ticker with pulsing red LED alert streaming county-by-county midnight dispatches.
+* **Front-Page 4-Frame Dynamic Comic Stage**:
+  1. *Night-Vision Surveillance Cam*: CRT scanlines, live `● REC 03:15:42 AM` timestamp, and witness testimonies.
+  2. *Action Panel*: Dynamic comic illustrations with onomatopoeia SFX bursts.
+  3. *Lead Investigator Panel*: Dominic Nyongesa investigative badge with animated Swahili speech bubbles (*"Giza lina siri... Eeh, mwecheche!"*).
+  4. *Evidence Locker*: Side-by-side eyewitness depositions and scientific / forensic counter-analyses.
+* **Sequential Comic Animation Controller**:
+  * `[ 🎬 Play Animated Comic Sequence ]` auto-cycles frames with focal spotlight glow.
+  * `[ ◀ Prev ]` & `[ Next ▶ ]` frame step navigation.
+  * `[ 💥 Action FX ]` floating comic popup SFX generator.
+* **Telerik Kendo UI AIPrompt Assistant**: The *Ngesa AI News Intelligence Terminal* featuring:
+  * **Interrogate Case Tab**: Multi-line prompt query textarea with dynamic per-case chips.
+  * **Intelligence Outputs Tab**: Dossier assessment cards with copy, export, and rating actions.
+  * **Editorial Presets Tab**: 1-click incident timelines, witness cross-examinations, and forensic contradiction audits.
+* **Custom Pointer**: 32px [Among Us Batman Gloved Finger Cursor](cursor_finger_32.png) with physics spring follower and hover tilt.
+* **Dual Theme Engine**: One-click toggle between vintage *Newsprint Paper Mode* (`#f6f1e8`) and high-contrast *Midnight Noir Mode* (`#080a0f`).
+* **Ambient Noir Rain Shader**: Real-time HTML5 canvas rainfall shader responsive to active theme.
 
 ---
 
@@ -38,175 +43,48 @@ python3 podcast.py serve --port 8000
 
 All 8 authentic cases are scraped and synthesized from verified Kenyan oral lore, historical archives, and eyewitness accounts:
 
-| Case | Title | Location | Phenomenon / Focus | Duration |
-| :--- | :--- | :--- | :--- | :--- |
-| **01** | **The Midnight Knock** | Homa Bay & Kisii | Hereditary Night Runners (*Abanyasi* & *Omoirori*) | 38:15 |
-| **02** | **The Ghost Bus of Ngong Road** | Karen & Ngong Road | KBS 666, phantom red matatus, and forest transit apparitions | 42:10 |
-| **03** | **Kirima kia Ngoma** | Menengai Crater, Nakuru | The Hill of Devils, phantom tractors, and 1854 warrior ghosts | 46:30 |
-| **04** | **The Goat-Footed Stranger** | Mama Ngina & Gedi | Swahili Coast *majini*, baobab spirits, and ocean apparitions | 44:00 |
-| **05** | **The Dormitory Above the Crypt** | Limuru & Kikuyu | Colonial boarding school hauntings, marching boots, phantom bells | 39:50 |
-| **06** | **The Vanishing at Kikopey** | Salgaa & Great Rift Valley | Trucker lore, the Lady in White, and sudden engine stall phenomena | 41:20 |
-| **07** | **The Starvation Woods of Chakama** | Shakahola Forest, Kilifi | Investigative forensics of Kenya's deadliest eschatological cult | 52:15 |
-| **08** | **The Brain-Eater of Kakamega** | Kakamega Rainforest | The legendary *Chemosit* (Nandi Bear) arboreal cryptid | 37:40 |
+| Case | Title | Location | Comic SFX | Key Focus |
+| :---: | :--- | :--- | :---: | :--- |
+| **01** | **The Midnight Knock** | Homa Bay & Kisii | `TWA! TWA! TWA!` | Hereditary Night Runners (*Abanyasi* & *Omoirori*) |
+| **02** | **The Ghost Bus of Ngong Road** | Karen Forest & Ngong Rd | `WHOOSH!` | KBS 666 vintage red matatu and midnight transit apparitions |
+| **03** | **Kirima kia Ngoma** | Menengai Crater, Nakuru | `BOOM! BOOM!` | The Hill of Devils, phantom drums, and 1854 warrior ghosts |
+| **04** | **The Goat-Footed Stranger** | Mama Ngina & Old Town | `CLACK! CLACK!` | Cloven goat hooves clicking against asphalt under tailored kanzu |
+| **05** | **The Dormitory Above the Crypt** | Limuru & Meru Schools | `DING! DONG!` | Colonial boarding school hauntings, marching boots, phantom bells |
+| **06** | **The Vanishing at Kikopey** | Kikopey & Salgaa Bend | `SKRRRT!` | Lady in White trucker lore and locked seatbelt anomaly |
+| **07** | **The Starvation Woods of Chakama** | Shakahola Forest, Kilifi | `EERIE SILENCE...` | Investigative forensics of 800 acres of apocalyptic deception |
+| **08** | **The Brain-Eater of Kakamega** | Kakamega Rainforest | `ROAAR!` | Legendary arboreal *Chemosit* (Nandi Bear) cryptid |
 
 ---
 
-## 🎙️ Podcast Feed & Syndication
+## ⚡ Launching the Platform
 
-*Ngesa Diaries* includes an Apple Podcasts & Spotify compliant RSS 2.0 feed:
-* **File**: `podcast.xml`
-* **Specification**: RSS 2.0 with iTunes DTD (`xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"`)
-* **Categories**: `Society & Culture > Documentary`, `True Crime`, `History`
-* **Validation**: Run `python3 podcast.py rss` to verify feed integrity.
-
----
-
-## 🤝 Open-Source Community Intake
-
-*Ngesa Diaries* is built for community participation:
-1. **GitHub Pull Requests**: Submit new cases to `episodes.json` or `cases/` following [`CONTRIBUTING.md`](CONTRIBUTING.md).
-2. **Interactive Drop Modal**: Visitors can click the **Contribute** tab or press `D` in the web interface to submit eyewitness accounts directly into the editorial intake queue.
-3. **Field Keyboard Controls**:
-   * `Space` — Toggle eerie atmospheric horror drone
-   * `1` through `8` — Instantly switch between Case Files 01–08
-   * `T` — Switch to verbatim transcript view
-   * `L` — Switch to witness lore & anthropological depositions
-   * `D` — Open community story submission modal
-   * `H` — Toggle HUD visibility for full cinematic stargazing view
-   * `M` — Mute synthesizer
-
----
-
-## 🎙️ Voice Pipeline — Three Paths, Consent Requirements, How to Swap Narrator
-
-To ensure *Ngesa Diaries* avoids generic robotic text-to-speech, all vocal output adheres to the **Kenyan Investigative Noir Voice Profile**:
-* **Demographic**: Kenyan male, late 30s–early 40s.
-* **Accent**: Neutral East African accent (Nairobi Standard English).
-* **Delivery**: Measured, low-warmth tone. Investigative journalist pacing (~130–145 wpm), slight tension underneath every sentence, pauses before key revelations, steady volume, no rising inflection.
-* **Reference Archetype**: Jack Rhysider (*Darknet Diaries*) meets *BBC Africa Eye* noir.
-
-```
-                  ┌─────────────────────────────────────────────────────────┐
-                  │              VOICE PRODUCTION PIPELINE                  │
-                  └──────────────────────────┬──────────────────────────────┘
-                                             │
-                       ┌─────────────────────┴─────────────────────┐
-                       │                                           │
-         ┌─────────────▼──────────────┐              ┌─────────────▼──────────────┐
-         │          PATH A            │              │          PATH C            │
-         │   Licensed Voice Actor     │              │    Synthetic Voice Design  │
-         │ (David Vincent Onyango)    │              │  (ElevenLabs Multilingual) │
-         └─────────────┬──────────────┘              └─────────────┬──────────────┘
-                       │                                           │
-                       └─────────────────────┬─────────────────────┘
-                                             │
-                                   ┌─────────▼─────────┐
-                                   │    LEGAL GATE     │
-                                   │ Consent Validated │
-                                   │  24-Mo Signature  │
-                                   └─────────┬─────────┘
-                                             │
-                                   ┌─────────▼─────────┐
-                                   │  AUDIO MASTERING  │
-                                   │  - 80Hz Highpass  │
-                                   │  - Vocal Comp     │
-                                   │  - -16 ± 1 LUFS   │
-                                   └─────────┬─────────┘
-                                             │
-                                   ┌─────────▼─────────┐
-                                   │   CI VALIDATION   │
-                                   │ Peak <= -1.0 dBFS │
-                                   │ Silence <= 2.0s   │
-                                   └───────────────────┘
+### 1. View Directly in Browser
+```bash
+# Open index.html directly:
+xdg-open index.html
 ```
 
-### The Three Implementation Paths
-
-#### 1. Path A — Licensed Kenyan Voice Actor (Production Standard)
-* **Shortlist & Roster**: Documented in [`voice-talent.md`](voice-talent.md).
-  - Primary: **David Vincent Onyango** (Voice123) — 96% spec match.
-  - Alternative: **Kelvin Thagana Njungu** (Voice123) — 91% spec match.
-  - Female Backup: **Dora Nyaboke** (Bodalgo / Voice123) — 88% spec match.
-* **Actor Briefing**: [`voice-brief.md`](voice-brief.md) contains pacing cues, 30s audition lines, and phonetic guides for Kenyan landmarks (Kikopey, Menengai, Salgaa) and cultural terms (*Abanyasi*, *Majini*, *Chemosit*).
-* **Legal Consent Execution**: Requires signed [`consent/{actor-name}.json`](consent/david-vincent-onyango.json).
-
-#### 2. Path B — Open Swahili/Kenyan Dataset (Self-Hosted Model)
-* **Corpus**: JamboGPT Swahili speech subset (10,000 hrs, 1,000 speakers, CC-BY-4.0) filtered for male speakers in the Nairobi region aged 35–45.
-* **Architecture**: **Hypa-Orpheus 3B** fine-tuned with `learning_rate=1e-5`, `epochs=8`, `batch_size=4`, `speaker_embedding_dim=256`.
-* **Artifacts**: Checkpoint config in [`models/narrator-ke-v1/config.json`](models/narrator-ke-v1/config.json) and training metrics in [`models/training-log.json`](models/training-log.json).
-
-#### 3. Path C — Synthetic Voice Design (Fastest Automated Path)
-* **Provider**: ElevenLabs Voice Design / Multilingual v2 API.
-* **Prompt**: *"A calm, measured Kenyan male narrator in his late 30s. Investigative journalist tone. Low warmth, slight tension. Neutral East African accent. Pace 135 words per minute. Pauses before key facts. Never sensational. Standard English with correct Swahili pronunciation for place names."*
-* **Consent Template**: [`consent/synthetic.json`](consent/synthetic.json).
-
----
-
-### ⚖️ Legal Gate Enforcement (Non-Negotiable)
-
-Before any narration cloning or audio generation runs, [`scripts/generate-voice.js`](scripts/generate-voice.js) enforces a strict zero-trust legal gate:
-1. `consent/{voice-source}.json` **must exist** in the filesystem.
-2. `permitted_uses` **must include** both `"ai voice cloning"` and `"commercial distribution"`.
-3. `revoked !== true` (if revoked, the script halts with exit code 1).
-4. For real person actors, `signature_date` **must be within 24 months** of the runtime date.
-
----
-
-### 🔄 How to Swap the Narrator
-
-To switch between talent candidates or synthesis modes:
-
-1. **Update `.env`**:
-   ```ini
-   # For Path A (David Vincent Onyango):
-   VOICE_SOURCE=actor
-   CONSENT_FILE=consent/david-vincent-onyango.json
-   NARRATOR_VOICE_ID=david-vincent-onyango
-
-   # Or for Path C (Synthetic Voice Design):
-   # VOICE_SOURCE=synthetic
-   # CONSENT_FILE=consent/synthetic.json
-   # NARRATOR_VOICE_ID=your-elevenlabs-voice-id
-   ```
-
-2. **Generate Audition Previews**:
-   ```bash
-   npm run voice:preview
-   # Creates 30s candidate samples in audio/previews/ for A/B comparison
-   ```
-
-3. **Master Episode Narration**:
-   ```bash
-   npm run voice:generate -- --script episodes/ep001.md
-   # Chunks script, applies 400ms sentence pauses, masters to -16 LUFS
-   ```
-
-4. **Verify Against CI Broadcast Spec**:
-   ```bash
-   npm run voice:validate
-   # Checks: LUFS (-16 ± 1), True Peak (<= -1 dBFS), Silence (<= 2s), Duration drift (±10%)
-   ```
-
----
-
-## 🛠️ Repository Structure
-
+### 2. Run Local Python Server
+```bash
+python3 podcast.py serve --port 8000
+# Then navigate to: http://localhost:8000
 ```
-ngesa-diaries/
-├── index.html                  # Single-page literary HUD platform (Mara style)
-├── episodes.json               # 8 Kenyan horror cases with transcripts & dossiers
-├── podcast.xml                 # RSS 2.0 syndication feed for Apple/Spotify
-├── podcast.py                  # CLI utility for listing, serving, and RSS check
-├── avatar.jpg / logo.jpg       # Dominic Nyongesa (@ngesa-cloud) emblem
-├── CONTRIBUTING.md             # Guidelines for community story submissions
-├── README.md                   # Platform documentation & case index
-└── ngesa_diaries_hud_rendered.png # High-resolution visual preview
+
+### 3. Rebuild / Regenerate HTML
+```bash
+python3 build_comic_news.py
 ```
 
 ---
 
-## 📜 License & Acknowledgments
+## 🤝 Contributing New Cases
+
+Contributions are welcome! Submit new cases to [`episodes.json`](episodes.json) or [`CONTRIBUTING.md`](CONTRIBUTING.md).
+
+---
+
+## 📜 License & Credits
 
 * **Platform Code & Design**: MIT License
-* **Folklore & Transcripts**: Creative Commons Attribution (CC-BY 4.0)
-* **Created & Hosted By**: Dominic Nyongesa ([@ngesa-cloud](https://github.com/ngesa-cloud))
+* **Folklore & Case Depositions**: Creative Commons Attribution (CC-BY 4.0)
+* **Lead Investigator & Author**: **Dominic Nyongesa** ([@ngesa-cloud](https://github.com/ngesa-cloud))
