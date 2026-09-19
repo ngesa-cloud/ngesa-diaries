@@ -1,0 +1,790 @@
+[
+  {
+    "id": "case-01",
+    "slug": "the-bill-and-your-pocket",
+    "beat": "Bunge",
+    "headline": {
+      "en": "A bill lands in Bunge. Who picks up the tab?",
+      "sw": "Mswada umefika Bungeni. Nani atalipa?",
+      "sheng": "Bill iko Bunge. Nani anabeba hiyo cost?"
+    },
+    "deck": "Before the speeches, follow the small print. Mwananchi traces a fictional market-fee bill from the chamber to the till.",
+    "brief": {
+      "en": "A proposal is not a law. First, read what it would change.",
+      "sw": "Pendekezo si sheria. Soma mabadiliko yanayopendekezwa.",
+      "sheng": "Bill si law bado. Cheki changes kwanza."
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:20:00+03:00",
+    "read_mins": 3,
+    "counties": ["Nairobi"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Parliament · legislative process",
+        "url": "https://www.parliament.go.ke/How_Parliament_Works",
+        "published_at": null,
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A fictional proposal arrives.",
+        "bubble": "Another fee? Show me the fine print.",
+        "sfx": "WUEH!",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "Mwananchi checks the actual document.",
+        "bubble": "What changes, and who pays?",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "The committee hears submissions.",
+        "bubble": "Put the question on the record.",
+        "sfx": "WUEH!",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The Auditor follows the cost.",
+        "bubble": "An estimate needs a calculation.",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The newsroom checks the next stage.",
+        "bubble": "A headline is not the whole bill.",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. Before the speeches, follow the small print. Mwananchi traces a fictional market-fee bill from the chamber to the till. No real person is depicted or quoted, and no current event is being reported.",
+      "A proposal is not a law. First, read what it would change.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-02",
+    "slug": "county-budget-paper-trail",
+    "beat": "Counties",
+    "headline": {
+      "en": "Your county budget has a paper trail. Follow it.",
+      "sw": "Bajeti ya kaunti ina nyaraka. Zifuatilie.",
+      "sheng": "Budget ya county? Leta receipts."
+    },
+    "deck": "A fictional clinic budget shows why an allocation and a completed project are two different stories.",
+    "brief": {
+      "en": "Ask for the allocation, expenditure report and delivery record.",
+      "sw": "Omba bajeti, ripoti ya matumizi na taarifa ya utekelezaji.",
+      "sheng": "Allocation si delivery. Cheki kila receipt."
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:19:00+03:00",
+    "read_mins": 4,
+    "counties": ["Nairobi", "Kiambu"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Controller of Budget",
+        "url": "https://cob.go.ke/",
+        "published_at": null,
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "The fictional budget is announced.",
+        "bubble": "A number is a starting point.",
+        "sfx": "KA-CHING!",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "A resident visits the planned clinic.",
+        "bubble": "What has actually been delivered?",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "The paper trail gets a second look.",
+        "bubble": "Compare the same reporting period.",
+        "sfx": "KA-CHING!",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "A question goes to the assembly.",
+        "bubble": "Who can explain this difference?",
+        "sfx": "",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. A fictional clinic budget shows why an allocation and a completed project are two different stories. No real person is depicted or quoted, and no current event is being reported.",
+      "Ask for the allocation, expenditure report and delivery record.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-03",
+    "slug": "viral-screenshot",
+    "beat": "Integrity",
+    "headline": {
+      "en": "That viral screenshot is missing a date.",
+      "sw": "Picha hiyo inayosambaa haina tarehe.",
+      "sheng": "Screenshot imeviral. Date iko wapi?"
+    },
+    "deck": "The group chat has a document. The document has no date. Our fictional desk starts there.",
+    "brief": {
+      "en": "Find the original before forwarding a claim.",
+      "sw": "Tafuta chanzo halisi kabla ya kusambaza dai.",
+      "sheng": "Usiforward tu. Original iko wapi?"
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:18:00+03:00",
+    "read_mins": 5,
+    "counties": ["Mombasa"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Auditor-General",
+        "url": "https://www.oagkenya.go.ke/",
+        "published_at": null,
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A sample screenshot lands in a chat.",
+        "bubble": "Everyone is sharing this!",
+        "sfx": "ATI NINI?!",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The Auditor asks for the original.",
+        "bubble": "Where is the full report?",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "The date box is empty.",
+        "bubble": "We cannot establish the period.",
+        "sfx": "ATI NINI?!",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The desk pauses the forward.",
+        "bubble": "Unverified means we do not know yet.",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. The group chat has a document. The document has no date. Our fictional desk starts there. No real person is depicted or quoted, and no current event is being reported.",
+      "Find the original before forwarding a claim.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-04",
+    "slug": "registration-homework",
+    "beat": "Elections",
+    "headline": {
+      "en": "Your vote starts before polling day.",
+      "sw": "Kura yako huanza kabla ya siku ya uchaguzi.",
+      "sheng": "Kura inaanza kabla ya D-day."
+    },
+    "deck": "Mwananchi’s fictional checklist: check registration information with IEBC, not a forwarded graphic.",
+    "brief": {
+      "en": "Use IEBC for registration details and official notices.",
+      "sw": "Tumia IEBC kwa taarifa za usajili na matangazo rasmi.",
+      "sheng": "Cheki IEBC. Forward si official notice."
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:17:00+03:00",
+    "read_mins": 3,
+    "counties": ["All counties"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "IEBC · election operation plan",
+        "url": "https://www.iebc.or.ke/uploads/resources/tpFfOlBLRh.pdf",
+        "published_at": null,
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A fictional voter starts a checklist.",
+        "bubble": "Let me check the official notice.",
+        "sfx": "JIPANGE!",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "A friend shares an undated flyer.",
+        "bubble": "Which date is this from?",
+        "sfx": "",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "The voter opens the IEBC source.",
+        "bubble": "I will use the current instructions.",
+        "sfx": "JIPANGE!",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The plan is written down.",
+        "bubble": "Prepared beats panicked.",
+        "sfx": "",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. Mwananchi’s fictional checklist: check registration information with IEBC, not a forwarded graphic. No real person is depicted or quoted, and no current event is being reported.",
+      "Use IEBC for registration details and official notices.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-05",
+    "slug": "court-order-context",
+    "beat": "Mahakama",
+    "headline": {
+      "en": "A court order is not a WhatsApp summary.",
+      "sw": "Amri ya mahakama si muhtasari wa WhatsApp.",
+      "sheng": "Court order si story ya group chat."
+    },
+    "deck": "In a fictional dispute, the desk separates what an order says from what people wish it said.",
+    "brief": {
+      "en": "Read the order, the date and the scope together.",
+      "sw": "Soma amri, tarehe na mipaka yake pamoja.",
+      "sheng": "Soma order yote. Context ni muhimu."
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:16:00+03:00",
+    "read_mins": 4,
+    "counties": ["Nakuru"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Kenya Law · Constitution",
+        "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution",
+        "published_at": "2010-08-27T00:00:00+03:00",
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A fictional order is discussed.",
+        "bubble": "So the whole case is over?",
+        "sfx": "BAM!",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The desk checks the actual wording.",
+        "bubble": "Does it say that?",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "The scope matters.",
+        "bubble": "A narrow order is still narrow.",
+        "sfx": "BAM!",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The explainer keeps its limits.",
+        "bubble": "We explain; we do not offer legal advice.",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. In a fictional dispute, the desk separates what an order says from what people wish it said. No real person is depicted or quoted, and no current event is being reported.",
+      "Read the order, the date and the scope together.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-06",
+    "slug": "senate-county-questions",
+    "beat": "Senate",
+    "headline": {
+      "en": "County questions belong on the record.",
+      "sw": "Maswali ya kaunti yawekwe kwenye kumbukumbu.",
+      "sheng": "Maswali za county ziwekwe kwa record."
+    },
+    "deck": "A fictional committee exchange shows why a question, an answer and supporting evidence are different things.",
+    "brief": {
+      "en": "Look for the question, response and supporting document.",
+      "sw": "Tafuta swali, jibu na nyaraka zinazoliunga mkono.",
+      "sheng": "Jibu pekee haitoshi. Evidence iko?"
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:15:00+03:00",
+    "read_mins": 5,
+    "counties": ["Kisumu", "Kakamega"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Parliament · legislative process",
+        "url": "https://www.parliament.go.ke/How_Parliament_Works",
+        "published_at": null,
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A fictional committee sits.",
+        "bubble": "We need the underlying record.",
+        "sfx": "ATI NINI?!",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "An official offers a broad answer.",
+        "bubble": "The details are in the documents.",
+        "sfx": "",
+        "character": "Mheshimiwa",
+        "art_note": "Original ink silhouette of Mheshimiwa; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "A resident asks the next question.",
+        "bubble": "Which documents, exactly?",
+        "sfx": "ATI NINI?!",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The Auditor checks the reference.",
+        "bubble": "Link the answer to the evidence.",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. A fictional committee exchange shows why a question, an answer and supporting evidence are different things. No real person is depicted or quoted, and no current event is being reported.",
+      "Look for the question, response and supporting document.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-07",
+    "slug": "promise-versus-policy",
+    "beat": "Executive",
+    "headline": {
+      "en": "A promise, a policy, a project. Spot the difference.",
+      "sw": "Ahadi, sera, mradi. Tofautisha.",
+      "sheng": "Promise si project. Cheki difference."
+    },
+    "deck": "Our fictional newsroom follows an announcement without treating the microphone as proof of delivery.",
+    "brief": {
+      "en": "An announcement needs documents, funding and implementation checks.",
+      "sw": "Tangazo linahitaji nyaraka, fedha na ukaguzi wa utekelezaji.",
+      "sheng": "Speech iko. Documents na delivery ziko?"
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:14:00+03:00",
+    "read_mins": 3,
+    "counties": ["All counties"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Kenya Law · Constitution",
+        "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution",
+        "published_at": "2010-08-27T00:00:00+03:00",
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A fictional official makes an announcement.",
+        "bubble": "There is a plan!",
+        "sfx": "WUEH!",
+        "character": "Mheshimiwa",
+        "art_note": "Original ink silhouette of Mheshimiwa; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The resident opens a notebook.",
+        "bubble": "Is the plan published?",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "The market asks about resources.",
+        "bubble": "Who is paying for it?",
+        "sfx": "WUEH!",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The desk follows implementation.",
+        "bubble": "We will check what happens next.",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. Our fictional newsroom follows an announcement without treating the microphone as proof of delivery. No real person is depicted or quoted, and no current event is being reported.",
+      "An announcement needs documents, funding and implementation checks.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-08",
+    "slug": "public-money-notes",
+    "beat": "Public Money",
+    "headline": {
+      "en": "Big budget. Small footnote. Read both.",
+      "sw": "Bajeti kubwa. Tanbihi ndogo. Soma zote.",
+      "sheng": "Budget ni big. Fine print usiruke."
+    },
+    "deck": "A made-up spending table helps readers distinguish estimates from reported expenditure.",
+    "brief": {
+      "en": "Check units, period and whether a figure is planned or spent.",
+      "sw": "Kagua vipimo, kipindi na kama fedha zimepangwa au zimetumika.",
+      "sheng": "Ni million ama billion? Planned ama spent?"
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:13:00+03:00",
+    "read_mins": 4,
+    "counties": ["Mombasa", "Nakuru"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Controller of Budget",
+        "url": "https://cob.go.ke/",
+        "published_at": null,
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A fictional chart shows a large number.",
+        "bubble": "What unit are we using?",
+        "sfx": "KA-CHING!",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The footnote changes the context.",
+        "bubble": "These are estimates, not receipts.",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "A second table covers a different period.",
+        "bubble": "Compare like with like.",
+        "sfx": "KA-CHING!",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The explanation gets a label.",
+        "bubble": "Every figure needs its source.",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. A made-up spending table helps readers distinguish estimates from reported expenditure. No real person is depicted or quoted, and no current event is being reported.",
+      "Check units, period and whether a figure is planned or spent.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-09",
+    "slug": "citizen-submission",
+    "beat": "Citizen Voices",
+    "headline": {
+      "en": "You have a question. Put it in the submission.",
+      "sw": "Una swali. Liweke kwenye maoni yako.",
+      "sheng": "Uko na swali? Liweke kwa submission."
+    },
+    "deck": "Mama Mboga turns a fictional complaint into a clear, specific question for a public participation meeting.",
+    "brief": {
+      "en": "A specific question is easier to answer than a broad accusation.",
+      "sw": "Swali mahususi ni rahisi kujibu kuliko tuhuma za jumla.",
+      "sheng": "Uliza specific. Receipts kwanza."
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:12:00+03:00",
+    "read_mins": 5,
+    "counties": ["Kilifi", "Machakos"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Kenya Law · Constitution",
+        "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution",
+        "published_at": "2010-08-27T00:00:00+03:00",
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "A market conversation gets heated.",
+        "bubble": "What exactly would you change?",
+        "sfx": "SAUTI!",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The group writes a clear question.",
+        "bubble": "Name the clause, then the concern.",
+        "sfx": "",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "A proposed alternative is added.",
+        "bubble": "Here is another way to do it.",
+        "sfx": "SAUTI!",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The submission gets saved.",
+        "bubble": "Keep a copy and track the response.",
+        "sfx": "",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. Mama Mboga turns a fictional complaint into a clear, specific question for a public participation meeting. No real person is depicted or quoted, and no current event is being reported.",
+      "A specific question is easier to answer than a broad accusation.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  },
+  {
+    "id": "case-10",
+    "slug": "county-assembly-notice",
+    "beat": "Counties",
+    "headline": {
+      "en": "A local notice can change your week. Read it.",
+      "sw": "Tangazo la kaunti linaweza kubadili wiki yako. Lisome.",
+      "sheng": "Notice ya county inaweza change wiki. Isome."
+    },
+    "deck": "A fictional market notice sends the newsroom looking for dates, scope and the actual issuer.",
+    "brief": {
+      "en": "Verify the issuer, the dates and the people affected.",
+      "sw": "Thibitisha mtoa tangazo, tarehe na wanaohusika.",
+      "sheng": "Ni nani ameissue? Inaanza lini? Inahusu nani?"
+    },
+    "byline": "Ngesa Chronicle sample desk",
+    "published_at": "2026-09-19T00:11:00+03:00",
+    "read_mins": 3,
+    "counties": ["Nyeri", "Uasin Gishu"],
+    "parties": [],
+    "sample": true,
+    "ai_assisted": true,
+    "sources": [
+      {
+        "name": "Kenya Law · Constitution",
+        "url": "https://new.kenyalaw.org/akn/ke/act/2010/constitution",
+        "published_at": "2010-08-27T00:00:00+03:00",
+        "scope": "Civic background only. This source does not report the fictional scenario.",
+        "checked_at": "2026-09-19"
+      }
+    ],
+    "verification": {
+      "status": "UNVERIFIED",
+      "note": "SAMPLE: fictional scenario, not a verified news event. Official links explain the civic context only."
+    },
+    "panels": [
+      {
+        "caption": "An unsigned sample notice appears.",
+        "bubble": "Is this for our market?",
+        "sfx": "KWISHA!",
+        "character": "Mama Mboga",
+        "art_note": "Original ink silhouette of Mama Mboga; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      },
+      {
+        "caption": "The original is requested.",
+        "bubble": "Who issued it?",
+        "sfx": "",
+        "character": "The Auditor",
+        "art_note": "Original ink silhouette of The Auditor; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "think"
+      },
+      {
+        "caption": "A date and location are checked.",
+        "bubble": "The details make the difference.",
+        "sfx": "KWISHA!",
+        "character": "Mwananchi",
+        "art_note": "Original ink silhouette of Mwananchi; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "shout"
+      },
+      {
+        "caption": "The desk leaves uncertainty visible.",
+        "bubble": "Do not guess what you cannot confirm.",
+        "sfx": "",
+        "character": "Mzee",
+        "art_note": "Original ink silhouette of Mzee; fictional archetype only; one amber accent; no real-person likeness.",
+        "type": "speak"
+      }
+    ],
+    "body": [
+      "This is a SAMPLE case file, built around a fictional scenario. A fictional market notice sends the newsroom looking for dates, scope and the actual issuer. No real person is depicted or quoted, and no current event is being reported.",
+      "Verify the issuer, the dates and the people affected.",
+      "The comic dialogue is invented to show the questions a reader can ask. It is not evidence. Start with the original document, check its author and date, and compare its wording with the claim being shared.",
+      "The official source linked below is background reading, not corroboration of this fictional story. A live report would require the exact source document, a publication date, context, relevant responses and an editorial verification decision.",
+      "What remains unknown: there is no real bill number, expenditure record, court case or reported incident attached to this sample. Do not use it as news or as legal or financial advice."
+    ],
+    "pull_quote": "Power deserves questions. You deserve receipts."
+  }
+]
