@@ -1455,7 +1455,7 @@ page_content = """<!doctype html>
   <header class="top-nav">
     <div class="brand-cluster" onclick="switchEpisode(0)">
       <div class="brand-pill">
-        <img src="avatar.jpg" alt="Dominic Nyongesa" class="brand-avatar">
+        <img src="avatar.jpg" alt="NGESA" class="brand-avatar">
         <span>NGESA DIARIES</span>
       </div>
       <div class="brand-tag">/// DECLASSIFIED KENYAN OCCULT ARCHIVE</div>
@@ -1509,7 +1509,7 @@ page_content = """<!doctype html>
       <div class="hero-editorial">
         <div class="editorial-badge-row">
           <div class="badge-red-box">KENYA TRUE HORROR</div>
-          <div class="badge-sub-label">INVESTIGATIVE AUDIO ARCHIVE // HOSTED BY DOMINIC NYONGESA</div>
+          <div class="badge-sub-label">INVESTIGATIVE AUDIO ARCHIVE // HOSTED BY NGESA</div>
           <div class="social-icons-strip">
             <a href="https://github.com/ngesa-cloud" target="_blank" class="social-icon-btn" title="GitHub Profile">⌨</a>
             <a href="podcast.xml" target="_blank" class="social-icon-btn" title="RSS Feed">📻</a>
@@ -1541,7 +1541,7 @@ page_content = """<!doctype html>
           <div class="voice-clone-strip">
             <div class="voice-clone-badge">
               <span class="pulse-dot"></span>
-              <span>VOICE CLONE IDENTITY: DOMINIC NYONGESA</span>
+              <span>VOICE CLONE IDENTITY: NGESA</span>
             </div>
             <button class="btn-voice-ref" onclick="playVoiceRef(this)" id="btn-voice-ref">
               <span>🔊</span> <span>Play Original Video Audio Sample</span>
@@ -1584,12 +1584,12 @@ page_content = """<!doctype html>
 
         <!-- Panel 3: Right Inspector Portrait -->
         <div class="comic-panel-investigator">
-          <img src="panel_investigator.jpg" alt="Dominic Nyongesa">
+          <img src="panel_investigator.jpg" alt="NGESA">
           <div class="action-speech-bubble" style="top: 24px; left: -22px; transform: rotate(-3deg); font-size: 13px; max-width: 175px; background: #fff; border: 2.5px solid #000; padding: 6px 12px; border-radius: 12px; font-weight: 800; font-family: var(--font-grotesk); box-shadow: 4px 4px 0 #000; z-index: 10;">
             Giza lina siri... Eeh, mwecheche!
           </div>
           <div class="investigator-badge">
-            <span class="name">DOMINIC NYONGESA</span>
+            <span class="name">NGESA</span>
             <span class="role">LEAD INVESTIGATOR</span>
           </div>
         </div>

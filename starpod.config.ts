@@ -1,7 +1,7 @@
 /**
  * starpod.config.ts
  * Starpod Podcast Engine Configuration for Ngesa Diaries
- * Host: Dominic Nyongesa (@ngesa-cloud)
+ * Host: NGESA (@ngesa-cloud)
  */
 
 export interface StarpodConfig {
@@ -29,7 +29,7 @@ export interface StarpodConfig {
 export const config: StarpodConfig = {
   title: 'Ngesa Diaries — Hidden Kenyan Horror Stories & True Mysteries',
   description: 'An open-source investigative audio documentary series exploring declassified Kenyan horror folklore, urban legends, and supernatural mysteries.',
-  author: 'Dominic Nyongesa',
+  author: 'NGESA',
   
   // Starpod Audio Settings
   audioBaseUrl: '/audio',
