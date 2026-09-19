@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 build_comic_news.py - Generates the Graphic Novel News Platform for Ngesa Chronicle
-Host & Lead Investigator: Dominic Nyongesa (@ngesa-cloud)
+Host & Lead Investigator: NGESA (@ngesa-cloud)
 Theme: Comic Book Journalism / Animated Visual Storytelling / Noir News Agency
 """
 
@@ -592,7 +592,7 @@ def generate():
       z-index: 4;
     }
 
-    /* Frame 3: Lead Investigator Dominic Nyongesa */
+    /* Frame 3: Lead Investigator NGESA */
     .frame-investigator {
       grid-column: 2 / 3;
       height: 290px;
@@ -1116,7 +1116,7 @@ def generate():
     <div class="masthead-main">
       <div class="masthead-left-box">
         <div><strong>BUREAU:</strong> NAIROBI / LAKE BASIN / COAST</div>
-        <div><strong>INVESTIGATIVE LEAD:</strong> DOMINIC NYONGESA</div>
+        <div><strong>INVESTIGATIVE LEAD:</strong> NGESA</div>
         <div><strong>FOCUS:</strong> OCCULT FOLKLORE &amp; URBAN HORROR</div>
       </div>
 
@@ -1127,8 +1127,8 @@ def generate():
 
       <div class="masthead-right-box">
         <div class="editor-seal">
-          <img src="avatar.jpg" alt="Dominic Nyongesa" class="editor-avatar">
-          <span class="editor-name">Dominic Nyongesa, Lead Investigator</span>
+          <img src="avatar.jpg" alt="NGESA" class="editor-avatar">
+          <span class="editor-name">NGESA, Lead Investigator</span>
         </div>
         <div class="masthead-controls">
           <button class="btn-pill-cta" onclick="toggleTheme()" title="Toggle Newsprint / Midnight Noir Mode">
@@ -1167,7 +1167,7 @@ def generate():
         </h2>
 
         <div class="byline-bar">
-          <div>BY <strong>DOMINIC NYONGESA</strong> &bull; NAIROBI BUREAU</div>
+          <div>BY <strong>NGESA</strong> &bull; NAIROBI BUREAU</div>
           <div id="story-timestamp">LOGGED 03:15 AM &bull; SPECIAL VISUAL DISPATCH</div>
         </div>
 
@@ -1226,15 +1226,15 @@ def generate():
           </div>
         </div>
 
-        <!-- Frame 3: Lead Investigator Dominic Nyongesa -->
+        <!-- Frame 3: Lead Investigator NGESA -->
         <div class="comic-frame frame-investigator" id="frame-3" onclick="focusComicFrame(3)">
-          <img src="panel_investigator.jpg" alt="Dominic Nyongesa Lead Investigator" id="img-frame-3">
+          <img src="panel_investigator.jpg" alt="NGESA Lead Investigator" id="img-frame-3">
           <div class="comic-speech-bubble" style="top: 14px; left: -10px; transform: rotate(-3deg); font-size: 12px; max-width: 170px; background: var(--yellow-burst);">
             "Giza lina siri... Eeh, mwecheche!"
           </div>
           <div class="investigator-badge">
             <span class="role">LEAD INVESTIGATOR</span>
-            <span>DOMINIC NYONGESA</span>
+            <span>NGESA</span>
           </div>
         </div>
 
@@ -1512,7 +1512,7 @@ def generate():
   <!-- NEWSPAPER FOOTER -->
   <footer class="newspaper-footer">
     <div><strong>THE NGESA CHRONICLE</strong> &bull; DECLASSIFIED KENYAN OCCULT &amp; TRUE CRIME GRAPHIC NOVEL NEWSPAPER</div>
-    <div>HOSTED &amp; INVESTIGATED BY <strong>DOMINIC NYONGESA</strong> &bull; MORINGA SCHOOL CYBER SECURITY LAB</div>
+    <div>HOSTED &amp; INVESTIGATED BY <strong>NGESA</strong> &bull; MORINGA SCHOOL CYBER SECURITY LAB</div>
     <div style="font-size:11px;color:var(--lead-gray);">EST. 2026 &bull; IN-SCOPE LAB NETWORK: 10.20.0.0/24 &bull; ALL RIGHTS RESERVED</div>
   </footer>
 
@@ -1898,7 +1898,7 @@ def generate():
 Case: 0${s.num} - ${s.title}
 Location: ${s.location}
 Category: ${s.category}
-Lead Byline: Dominic Nyongesa
+Lead Byline: NGESA
 Deposition: ${s.witness}
 Scientific Evaluation: ${s.scientific}
 Generated via Ngesa Starpod Intelligence Engine.`;

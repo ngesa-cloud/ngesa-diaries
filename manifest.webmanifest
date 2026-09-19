@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "The Ngesa Chronicle",
+  "short_name": "Ngesa",
+  "description": "Politics, drawn in ink. Sample Kenyan civic explainers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4EEDF",
+  "theme_color": "#F4EEDF",
+  "lang": "en-KE",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

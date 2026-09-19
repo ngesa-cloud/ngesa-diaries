@@ -3,7 +3,7 @@
 Welcome to the **Ngesa Diaries** open-source repository!  
 *Ngesa Diaries* is a community-driven, declassified archive and investigative audio documentary series exploring hidden Kenyan horror stories, urban legends, eerie folklore, and unsolved supernatural mysteries across all 47 counties of Kenya.
 
-Hosted and maintained by **Dominic Nyongesa** ([@ngesa-cloud](https://github.com/ngesa-cloud)).
+Hosted and maintained by **NGESA** ([@ngesa-cloud](https://github.com/ngesa-cloud)).
 
 ---
 
@@ -46,7 +46,7 @@ We welcome verified oral lore, eyewitness depositions, historical newspaper clip
    git commit -m "feat(case): add Case 09 - The Haunted Acacia of Machakos"
    git push origin story/my-kenyan-horror-tale
    ```
-5. Open a Pull Request for Dominic Nyongesa and the editorial team to review!
+5. Open a Pull Request for NGESA and the editorial team to review!
 
 ---
 

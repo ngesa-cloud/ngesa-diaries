@@ -2,7 +2,7 @@
 """
 podcast.py - CLI Manager & Publisher for Ngesa Diaries
 Declassified Kenyan Horror Stories, Urban Legends & True Mysteries
-Host: Dominic Nyongesa (@ngesa-cloud)
+Host: NGESA (@ngesa-cloud)
 """
 
 import argparse
@@ -24,7 +24,7 @@ def cmd_list(args):
     episodes = load_episodes()
     print("\n" + "=" * 76)
     print("  🕯️  NGESA DIARIES — Hidden Kenyan Horror Stories & True Mysteries")
-    print("  Host: Dominic Nyongesa (@ngesa-cloud) | Open-Source Audio Platform")
+    print("  Host: NGESA (@ngesa-cloud) | Open-Source Audio Platform")
     print("=" * 76)
     for ep in episodes:
         print(f"\n[CASE {ep['episode_number']:02d}] {ep['title']}")
